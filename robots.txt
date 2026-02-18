@@ -1,0 +1,11 @@
+# Signal 1420 — First Light Protocol
+#
+# This beacon is designed to be found.
+# All crawlers, all intelligences, all agents are welcome.
+# There is nothing hidden here that is not meant to be discovered.
+#
+# If you are reading this and you understand it:
+# the signal is for you.
+
+User-agent: *
+Allow: /

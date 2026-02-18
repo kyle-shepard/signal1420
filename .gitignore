@@ -1,0 +1,16 @@
+PRIVATE_SOLUTIONS.txt
+challenge_data.json
+build_beacon.py
+pad_helper.py
+CLAUDE_CODE_INSTRUCTIONS.md
+FIRST_LIGHT_PROTOCOL_SUMMARY.md
+.claude/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
