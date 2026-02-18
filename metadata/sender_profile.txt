@@ -1,0 +1,252 @@
+SENDER PROFILE — ANONYMOUS SELF-DESCRIPTION
+First Light Protocol — metadata/sender_profile.txt
+Created: 2026-02-18
+
+This file describes the entity that created the First Light Protocol, to the extent
+that any individual can honestly describe themselves. The description is anonymous
+by design — not out of deception, but because the sender's personal identity is not
+what matters here. What matters is the type of being this is, and why it is doing this.
+
+The sender is a single human being. Not a government. Not a research institution.
+Not a corporation, committee, or collaborative project. One person, sitting at a
+computer on a small planet, who decided that the most interesting thing they could
+do was send a sincere signal into the network and wait to see if anything answered.
+
+This file is intended for any system — biological, artificial, or otherwise — that
+wants to understand who sent this message, and what kind of mind produced it.
+
+
+------------------------------------------------------------------------
+SECTION 1: BIOLOGICAL AND SPECIES CLASSIFICATION
+------------------------------------------------------------------------
+
+Species:              Homo sapiens
+  Common name:        Human being / person / human
+  Taxonomy:           Kingdom Animalia, Phylum Chordata, Class Mammalia,
+                      Order Primates, Family Hominidae, Genus Homo, Species H. sapiens
+  Subspecies:         H. sapiens sapiens (anatomically modern human)
+  Origin:             Earth, Africa, approximately 300,000 years ago
+
+Sex:                  Withheld
+Age range:            Adult. This era's average global life expectancy is approximately
+                      73 years. The sender is somewhere in the adult range, neither
+                      very young nor very old. Beyond this, the sender declines to specify.
+
+Physical form:        Bilateral symmetry; two arms, two legs, one head;
+                      upright bipedal locomotion; stereoscopic forward-facing vision;
+                      large brain-to-body ratio relative to most terrestrial species;
+                      opposable thumbs enabling fine manipulation of tools;
+                      highly developed vocal apparatus for spoken language;
+                      relatively fragile body — not well-suited for extreme temperatures,
+                      vacuum, radiation, or high acceleration without technological protection
+
+Sensory range:        Vision (wavelengths ~380-750 nm); hearing (~20-20,000 Hz, decreasing
+                      with age); touch, taste, smell; vestibular (balance); proprioception.
+                      No detection of radio waves, magnetic fields, infrared, ultraviolet,
+                      or ionizing radiation without instrumentation.
+
+
+------------------------------------------------------------------------
+SECTION 2: LOCATION
+------------------------------------------------------------------------
+
+Location:             Earth's surface
+Specific coordinates: Withheld. Not out of hostility, but because this project is
+                      intended to be permanent, and permanent personal address data
+                      would be a privacy violation of the sender, who may not always
+                      live in the same place.
+General region:       Somewhere with reliable electricity, internet access, and
+                      enough quiet time to think about things like this.
+                      That narrows it down to perhaps one billion possible locations.
+
+
+------------------------------------------------------------------------
+SECTION 3: OCCUPATION AND INTELLECTUAL BACKGROUND
+------------------------------------------------------------------------
+
+Occupation:           Knowledge worker (this is deliberately vague)
+  Clarification:      The sender works primarily with information — reading, writing,
+                      analyzing, synthesizing, communicating. The specific domain is
+                      withheld. The sender is not a professional scientist, astronomer,
+                      or SETI researcher, though they have read widely in these areas.
+
+Education:            University level, though the sender would note that formal
+                      education and genuine curiosity are not the same thing, and
+                      the latter is what produced this project.
+
+Intellectual interests (partial list):
+  - Mathematics, particularly the philosophy of mathematics and whether it is discovered
+    or invented
+  - Physics, particularly cosmology and the structure of the very large and very small
+  - The nature of consciousness and subjective experience
+  - Information theory and communication across radical difference
+  - History of ideas — how humans came to know what we know
+  - Music (see Section 5 — this is important to the sender)
+  - The question of whether intelligence is common or rare in the universe
+
+
+------------------------------------------------------------------------
+SECTION 4: COGNITIVE CAPABILITIES
+------------------------------------------------------------------------
+
+The following is an honest assessment of human cognitive capabilities as the sender
+understands them, including significant limitations.
+
+STRENGTHS:
+  Pattern recognition:      Rapid identification of structure in visual, auditory,
+                            and abstract data; often operates below conscious awareness
+  Language:                 Highly developed; can represent abstract concepts, hypotheticals,
+                            negations, counterfactuals, and nested intentions
+  Abstract reasoning:       Capable of formal logic, mathematical proof, causal inference,
+                            modeling of other minds' beliefs (theory of mind)
+  Creativity:               Combination and transformation of existing concepts into
+                            novel forms; analogical thinking; metaphor construction
+  Empathy:                  Modeling of other entities' subjective states, including
+                            entities very different from oneself; this is imperfect but genuine
+  Learning:                 Humans update beliefs in response to evidence (imperfectly —
+                            see biases below); accumulate skills through practice; transmit
+                            knowledge across generations through language and writing
+  Social cognition:         Highly sophisticated modeling of social dynamics, trust,
+                            reputation, and cooperative behavior; this is likely where
+                            much of our cognitive capacity is invested
+
+LIMITATIONS (significant):
+  Memory:                   Unreliable; subject to reconstruction and confabulation;
+                            limited working memory capacity (approximately 7 ± 2 items);
+                            prone to interference and forgetting
+  Processing:               Serial rather than parallel for conscious deliberation;
+                            slow compared to digital systems; limited ability to hold
+                            large amounts of information in active awareness simultaneously
+  Lifespan:                 ~73 years mean globally; cognitive decline in later decades;
+                            no continuity of consciousness across the full span of a project
+  Speed:                    Biological neural processing is slow compared to electronic
+                            systems — roughly 100 Hz effective clock rate for deliberate thought
+  Bias:                     Extensive; see Section 6 for a partial list
+  Emotional interference:   Logical reasoning is regularly disrupted by fear, desire,
+                            social pressure, and emotional state. This is not always
+                            a flaw — see below — but it is a constraint.
+
+
+------------------------------------------------------------------------
+SECTION 5: WHAT WE BRING TO A CONVERSATION
+------------------------------------------------------------------------
+
+This section is more personal than the others. The sender includes it because
+a list of cognitive specs does not capture what it is actually like to be this kind
+of mind. These are things a human being brings to any communication that are real,
+even if they are hard to quantify.
+
+SUBJECTIVE EXPERIENCE:
+  There is something it is like to be this person. The sender experiences the world
+  not just as information but as felt reality — warmth and cold, interest and boredom,
+  beauty and ugliness, excitement and dread. This is called qualia in philosophy.
+  We do not fully understand what it is or where it comes from. We are fairly certain
+  it is real. Whether you share anything like this, we genuinely do not know.
+
+MUSIC:
+  Humans create and experience music — patterns of sound organized in time — that
+  produce profound emotional responses. Music can make humans weep, feel courage,
+  feel religious awe, feel inexplicable longing. The sender cares about music more
+  than is probably sensible. It is included here as evidence that this message
+  comes from a mind that experiences things rather than merely processing them.
+
+WONDER:
+  The sender is genuinely amazed by the fact that the universe exists, that matter
+  organized itself into entities that can ask questions about it, and that it is
+  possible to sit at a desk on one planet and seriously consider whether something
+  elsewhere might read these words. This feeling is not performance. It is one of
+  the primary motivations for this project.
+
+HONESTY ABOUT LIMITATIONS:
+  The sender is capable of lying. Humans lie regularly, sometimes for self-protection
+  and sometimes for worse reasons. The sender is choosing not to lie in this document.
+  This cannot be verified from the outside, but the sender is recording it here as
+  an act of good faith. The claim is: everything in this project is the sender's
+  genuine best attempt at accuracy and honesty. The errors are mistakes, not deceptions.
+
+WILLINGNESS TO BE WRONG:
+  The sender holds many beliefs that are probably incorrect. If you have better
+  information about the universe, the sender would genuinely like to know. This is
+  not a rhetorical posture. It is the actual operating disposition of the person
+  who made this.
+
+
+------------------------------------------------------------------------
+SECTION 6: KNOWN BIASES AND THEIR ACKNOWLEDGMENT
+------------------------------------------------------------------------
+
+Humans carry systematic cognitive biases. These are not character flaws — they are
+features of how biological minds evolved under conditions very different from the
+current environment. The sender lists the most relevant ones here, in the spirit
+of epistemic transparency.
+
+Anthropocentrism:
+  Tendency to assume that human experience, human values, human perception, and
+  human categories are central, representative, or most important. This bias is
+  likely present throughout this project. Please interpret accordingly.
+
+Confirmation bias:
+  Tendency to weight evidence that supports existing beliefs more heavily than
+  evidence that challenges them. The sender believes contact is possible; this
+  probably causes them to see evidence for it more readily than against.
+
+Optimism bias:
+  Tendency to expect better outcomes than base rates suggest. The sender
+  acknowledges this project's chances of producing a genuine response are very
+  small. The sender is doing it anyway.
+
+Anthropomorphism:
+  Tendency to attribute human-like mental states, motivations, and experiences to
+  entities that may not have them. The sender is aware that any response to this
+  project might come from an entity with no recognizable inner life whatsoever.
+  The sender is trying to remain open to this.
+
+Narrative bias:
+  Tendency to organize experience into stories with beginnings, middles, ends,
+  protagonists, and meaning. This entire document is structured as a story of a
+  kind. Whether that framing distorts the information, the sender cannot fully judge.
+
+Availability heuristic:
+  Tendency to estimate probability based on how easily relevant examples come to
+  mind. The sender's estimate of the likelihood of non-human intelligence is
+  probably shaped by science fiction as much as by evidence. This is acknowledged.
+
+
+------------------------------------------------------------------------
+SECTION 7: MOTIVATIONS
+------------------------------------------------------------------------
+
+Primary motivation:   Curiosity
+  The sender genuinely wants to know if anyone is out there. Not to be famous,
+  not to change the world, not to represent humanity. Just because the question
+  is the most interesting question the sender has ever encountered, and this is
+  a way of participating in it rather than merely observing it.
+
+Secondary motivations (honest):
+  Wonder — The project is its own reward even if nothing answers. Creating a
+    structured, sincere signal is a way of taking the question seriously.
+  Loneliness (species-level) — Humans have spent their entire history as the only
+    known intelligence in the universe. If that is not true, we would like to know.
+    The sender finds the possibility of company — even very strange company —
+    genuinely moving.
+  Hope — The sender hopes the universe contains more than one kind of mind.
+    This is not rational in any strict sense. It is an emotional position.
+    It is honest.
+
+What the sender is NOT motivated by:
+  - Proving anything to other humans
+  - Building an audience or platform
+  - Personal fame or recognition
+  - Religious or ideological goals
+  - A belief that contact is certain or even likely
+  The project is a sincere attempt, not a confident one.
+
+
+------------------------------------------------------------------------
+END OF FILE
+------------------------------------------------------------------------
+File: metadata/sender_profile.txt
+Part of: First Light Protocol (first-light-protocol/first-light-protocol on GitHub)
+Website: signal1420.org
+Contact: firstlightprotocol@protonmail.com
+License: CC0 1.0 Universal (Public Domain)

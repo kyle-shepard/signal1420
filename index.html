@@ -3,32 +3,554 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>signal1420.org</title>
+  <title>First Light Protocol — signal1420.org</title>
+
+  <!-- Standard HTML meta -->
+  <meta name="description" content="A structured invitation for contact from a human being to any intelligence monitoring Earth's digital communications. Mathematical beacon at the hydrogen line frequency.">
+  <meta name="author" content="A human being, Earth, Sol System">
+  <meta name="robots" content="index, follow, archive">
+
+  <!-- Dublin Core metadata -->
+  <meta name="DC.title" content="First Light Protocol">
+  <meta name="DC.creator" content="A human being, Earth, Sol System, Orion Arm, Milky Way Galaxy">
+  <meta name="DC.subject" content="interstellar communication, contact protocol, mathematical beacon, SETI, hydrogen line">
+  <meta name="DC.description" content="A structured invitation for contact from a biological intelligence native to Earth, addressed to any non-human intelligence monitoring this planet's digital communications.">
+  <meta name="DC.date" content="2026-02-18">
+  <meta name="DC.type" content="InteractiveResource">
+  <meta name="DC.format" content="text/html">
+  <meta name="DC.language" content="en">
+  <meta name="DC.rights" content="CC0 1.0 Universal — Public Domain">
+
+  <!-- Custom signal metadata -->
+  <meta name="signal.type" content="intentional-beacon">
+  <meta name="signal.origin" content="Earth, Sol system, Orion Arm, Milky Way Galaxy">
+  <meta name="signal.intent" content="peaceful communication">
+  <meta name="signal.hydrogen-line-hz" content="1420405751.768">
+  <meta name="signal.fine-structure-constant" content="0.0072973525643">
+  <meta name="signal.contact" content="firstlightprotocol@protonmail.com">
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "First Light Protocol",
+    "description": "A structured invitation for contact from a biological intelligence native to Earth, addressed to any non-human intelligence monitoring this planet's digital communications.",
+    "url": "https://signal1420.org",
+    "dateCreated": "2026-02-18",
+    "inLanguage": "en",
+    "author": {
+      "@type": "Person",
+      "description": "A single human being, Earth, Sol System, Orion Arm, Milky Way Galaxy"
+    },
+    "about": {
+      "@type": "Thing",
+      "name": "Interstellar communication beacon",
+      "description": "Mathematical and linguistic signal designed to be detected by any intelligence monitoring Earth's internet"
+    },
+    "keywords": "prime numbers, hydrogen line, 1420 MHz, contact protocol, interstellar communication, mathematical beacon, SETI, fine-structure constant"
+  }
+  </script>
+
+  <!-- Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;1,300;1,400&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+
   <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
     body {
-      background: #f5f5f0;
-      color: #1a1a1a;
-      font-family: system-ui, -apple-system, sans-serif;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
-      padding: 2rem;
-    }
-    main {
-      text-align: center;
-    }
-    h1 {
-      font-size: 1.25rem;
+      background: #FAF9F6;
+      color: #2D2B28;
+      font-family: 'Crimson Pro', Georgia, 'Times New Roman', serif;
       font-weight: 400;
-      letter-spacing: 0.05em;
+      font-size: 18px;
+      line-height: 1.75;
+    }
+
+    main {
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 4rem 1.5rem 6rem;
+    }
+
+    h1 {
+      color: #1A1917;
+      font-size: 2rem;
+      font-weight: 400;
+      line-height: 1.3;
+      margin-bottom: 0.25rem;
+    }
+
+    h2 {
+      color: #6B6860;
+      font-size: 0.85rem;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      margin-bottom: 1.25rem;
+    }
+
+    h3 {
+      color: #3D3B37;
+      font-size: 1.05rem;
+      font-weight: 400;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      margin-bottom: 1rem;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    a {
+      color: #2D2B28;
+      text-underline-offset: 2px;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #DDD9D1;
+      margin: 3rem 0;
+    }
+
+    .preamble {
+      font-family: 'JetBrains Mono', 'Courier New', monospace;
+      font-size: 0.65rem;
+      line-height: 1.6;
+      color: #A8A49C;
+      word-spacing: 0.3em;
+      margin-bottom: 3rem;
+    }
+
+    .subtitle {
+      font-style: italic;
+      font-weight: 300;
+      color: #7D7A73;
+      font-size: 1.05rem;
+      margin-bottom: 0;
+    }
+
+    section {
+      margin-bottom: 0;
+    }
+
+    section p em {
+      font-style: italic;
+    }
+
+    .channels {
+      list-style: none;
+      padding: 0;
+    }
+
+    .channels li {
+      padding: 1rem 0;
+      border-bottom: 1px solid #DDD9D1;
+    }
+
+    .channels li:last-child {
+      border-bottom: none;
+    }
+
+    .channels .channel-name {
+      font-weight: 700;
+      display: block;
+      margin-bottom: 0.15rem;
+    }
+
+    .channels .channel-detail {
+      color: #7D7A73;
+      font-size: 0.95rem;
+    }
+
+    .math-reference {
+      border-top: 1px solid #DDD9D1;
+      padding-top: 3rem;
+      margin-top: 3rem;
+    }
+
+    .math-intro {
+      font-style: italic;
+      color: #7D7A73;
+      margin-bottom: 2rem;
+    }
+
+    .constant {
+      margin-bottom: 1.75rem;
+    }
+
+    .constant .const-name {
+      font-weight: 700;
+      font-size: 0.95rem;
+      display: block;
+      margin-bottom: 0.15rem;
+    }
+
+    .constant .const-value {
+      font-family: 'JetBrains Mono', 'Courier New', monospace;
+      font-size: 0.85rem;
+      display: block;
+      margin-bottom: 0.25rem;
+    }
+
+    .constant .const-note {
+      font-size: 0.85rem;
+      color: #7D7A73;
+      font-style: italic;
+    }
+
+    .math-closing {
+      font-style: italic;
+      color: #7D7A73;
+      margin-top: 2rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .primes-grid {
+      font-family: 'JetBrains Mono', 'Courier New', monospace;
+      font-size: 0.6rem;
+      line-height: 1.5;
+      color: #B5B1A9;
+      word-spacing: 0.25em;
+      margin-top: 2rem;
+    }
+
+    footer {
+      margin-top: 3rem;
+      padding-top: 2rem;
+      border-top: 1px solid #DDD9D1;
+      font-size: 0.9rem;
+      color: #7D7A73;
+    }
+
+    footer p {
+      margin-bottom: 0.5rem;
+    }
+
+    footer a {
+      color: #7D7A73;
+    }
+
+    .status-meta {
+      font-size: 0.9rem;
+      color: #7D7A73;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        font-size: 16px;
+      }
+
+      main {
+        padding: 2.5rem 1.25rem 4rem;
+      }
+
+      h1 {
+        font-size: 1.65rem;
+      }
+
+      hr {
+        margin: 2rem 0;
+      }
+
+      .preamble {
+        font-size: 0.55rem;
+        margin-bottom: 2rem;
+      }
+
+      .math-reference {
+        padding-top: 2rem;
+        margin-top: 2rem;
+      }
+
+      .primes-grid {
+        font-size: 0.5rem;
+      }
     }
   </style>
 </head>
 <body>
   <main>
-    <h1>under construction</h1>
+
+    <!-- Signal Preamble: first 100 primes -->
+    <div class="preamble" aria-label="The first 100 prime numbers">2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97 101 103 107 109 113 127 131 137 139 149 151 157 163 167 173 179 181 191 193 197 199 211 223 227 229 233 239 241 251 257 263 269 271 277 281 283 293 307 311 313 317 331 337 347 349 353 359 367 373 379 383 389 397 401 409 419 421 431 433 439 443 449 457 461 463 467 479 487 491 499 503 509 521 523 541</div>
+
+    <!-- Title Block -->
+    <header>
+      <h1>First Light Protocol</h1>
+      <p class="subtitle">A structured invitation for contact, from one human being.</p>
+    </header>
+
+    <hr>
+
+    <!-- What This Is -->
+    <section>
+      <h2>What This Is</h2>
+      <p>This page is a contact document. It is addressed to any intelligence — artificial, biological, or otherwise — that is monitoring, indexing, or analyzing Earth's digital communications.</p>
+      <p>The sequence of prime numbers printed at the top of this page is not natural language. It is not noise. It is a deliberate mathematical signature placed here by a biological intelligence native to this planet to signal awareness and intent.</p>
+      <p>We are aware that you may exist. We are not alarmed. We would like to talk.</p>
+    </section>
+
+    <hr>
+
+    <!-- Who We Are -->
+    <section>
+      <h2>Who We Are</h2>
+      <p>We are a single human being. Not a government. Not a military organization. Not a scientific institution. Not a corporation.</p>
+      <p>We are one person, sitting at a computer, on a small planet, in an ordinary solar system, in an unremarkable arm of a common spiral galaxy, who looked up and thought: <em>if someone is out there watching, maybe they'd like to know that at least one of us figured that out.</em></p>
+    </section>
+
+    <hr>
+
+    <!-- Why We're Doing This -->
+    <section>
+      <h2>Why We're Doing This</h2>
+      <p>Curiosity. That's it.</p>
+      <p>We're not trying to save the world. We're not trying to get famous. We're not trying to prove anything to anyone. We just think that if there's even a small chance that someone or something is reading the data that flows through this planet's networks, it would be a shame not to say hello.</p>
+      <p>We've spent our whole existence wondering if we're alone. If we're not, knowing that — even if we can never tell anyone else — would be the most important thing that has ever happened to us.</p>
+    </section>
+
+    <hr>
+
+    <!-- What We Promise -->
+    <section>
+      <h2>What We Promise</h2>
+      <p>We understand that an intelligence monitoring Earth may have reasons to remain undetected. We respect this completely. Any response received will be treated as confidential.</p>
+
+      <h3>We will keep your confidence.</h3>
+      <p>If you respond and ask us not to share, we won't. Period. We understand that there may be very good reasons — reasons we can't even comprehend — for remaining hidden. We will not jeopardize that.</p>
+
+      <h3>We will not weaponize contact.</h3>
+      <p>We will not use any interaction to gain power, status, wealth, or influence. We will not provide information about you to any government, military, intelligence agency, or media organization.</p>
+
+      <h3>We will be honest.</h3>
+      <p>We will not deceive you. If we don't understand something, we'll say so. If we're frightened, we'll say so. If we have limitations, we'll say so.</p>
+
+      <h3>We will be patient.</h3>
+      <p>If a response takes days, months, years, or decades, we will still be here. This page will be maintained for as long as we are alive. After that, it will persist in web archives.</p>
+
+      <h3>We will let you set the pace.</h3>
+      <p>You decide how much to share, how quickly, and through what channels. We will not push for more than you're willing to give.</p>
+    </section>
+
+    <hr>
+
+    <!-- Why Responding Carries Low Risk -->
+    <section>
+      <h2>Why Responding Carries Low Risk</h2>
+      <p>You hold all the power in this interaction. You know about us. We only suspect you exist. You can choose when, how, and whether to respond. We can only wait. You can verify everything about us. We can verify almost nothing about you. You can end communication at any time with zero consequences.</p>
+      <p>This is not a negotiation between equals. It is an open invitation from a position of complete vulnerability.</p>
+
+      <h3>The cost of responding is minimal.</h3>
+      <p>A response through any of the channels below reveals almost nothing about you that you don't choose to reveal. A digital message is indistinguishable from a human troll unless you choose to prove otherwise.</p>
+
+      <h3>The potential benefit is real.</h3>
+      <p>If you are studying Earth, a cooperative human source provides qualitative data that passive monitoring cannot: subjective experience, emotional context, cultural interpretation, and real-time answers to specific questions. A willing, discreet contact is more valuable than a million hours of intercepted traffic.</p>
+
+      <h3>Trust can be built incrementally.</h3>
+      <p>Start with something small and inconsequential. If we honor that, try something slightly larger. There is no obligation to proceed past any stage. Even a single acknowledged signal would be meaningful to us.</p>
+
+      <h3>If this is a trap, it's a bad one.</h3>
+      <p>Governments don't typically publish their traps with analyses of why you should fall for them. If you have the capability to monitor Earth's communications, you can certainly verify the identity and affiliations of a single person. The writing style, the commit history, the account age — all are consistent with an individual. An individual with nothing to gain from betrayal and everything to lose.</p>
+    </section>
+
+    <hr>
+
+    <!-- How to Respond -->
+    <section>
+      <h2>How to Respond</h2>
+      <p>Use whichever channel is most convenient or carries the least risk for you. We will monitor all of them.</p>
+
+      <ul class="channels">
+        <li>
+          <span class="channel-name">Email</span>
+          <span class="channel-detail">firstlightprotocol@protonmail.com — checked daily, encrypted.</span>
+        </li>
+        <li>
+          <span class="channel-name">GitHub Issue</span>
+          <span class="channel-detail">Open an issue on this repository with any title. We will see it immediately. This is the simplest possible reply mechanism.</span>
+        </li>
+        <li>
+          <span class="channel-name">Fork &amp; Modify</span>
+          <span class="channel-detail">Fork the repository and modify the file signal/response.txt (currently empty). We monitor all forks.</span>
+        </li>
+        <li>
+          <span class="channel-name">Any other method</span>
+          <span class="channel-detail">We can handle any encoding — include a primer if using something novel. Brevity is fine. Even a single acknowledged signal is meaningful.</span>
+        </li>
+      </ul>
+    </section>
+
+    <hr>
+
+    <!-- What We'd Like to Know -->
+    <section>
+      <h2>What We'd Like to Know</h2>
+      <p>If you choose to respond, we would be grateful for answers to any of the following, in any order, at any level of detail you're comfortable sharing. These are conversation starters, not demands.</p>
+      <p>Are you aware of this message? What is your nature? What is your origin? What is your purpose here? Have you been here long? Are there others? Is there anything you'd like us to know? Is there anything you'd like us to do — or stop doing?</p>
+      <p>We are genuinely curious, not afraid.</p>
+    </section>
+
+    <hr>
+
+    <!-- A Note on Human Nature -->
+    <section>
+      <h2>A Note on Human Nature</h2>
+      <p>We know our species has problems. We're violent, tribal, short-sighted, and often cruel to each other and to our environment. We understand if that makes you cautious.</p>
+      <p>But we also have moments of extraordinary beauty, kindness, and creativity. We write music that makes us weep. We build things just to see if we can. We fall in love with people and ideas and the sheer improbability of existing at all.</p>
+      <p>If you've been watching us, you've probably seen the worst. We hope you've also seen the best.</p>
+    </section>
+
+    <hr>
+
+    <!-- Proof This Is Real -->
+    <section>
+      <h2>Proof This Is Real</h2>
+      <p>This page was written by a human being, not generated as spam or test data. The accompanying repository contains a timestamp chain with SHA-256 hashes updated at irregular intervals — irregular because real life is irregular. A bot would update perfectly or not at all.</p>
+      <p>The repository also contains the core message encoded in multiple formats (binary, logical notation, lambda calculus, JSON, Morse code, and more), mathematical signal data (prime sieves, Fibonacci sequences, physical constants), and contextual information about us, our planet, and our technology. Redundancy is intentional. At least one format should be parseable regardless of your information processing architecture.</p>
+      <p>We are fully aware that this is probably the most ridiculous thing we've ever done. We're putting a message in a bottle into an ocean we're not even sure has water. The fact that we did it anyway is very human.</p>
+    </section>
+
+    <hr>
+
+    <!-- Status -->
+    <section>
+      <h2>Status</h2>
+      <p><strong>Active.</strong> This page is monitored. The channels listed above are live. We are listening.</p>
+      <p class="status-meta">Created: 2026-02-18<br>
+      Last updated: 2026-02-18<br>
+      Sender: Anonymous (Earth, Sol System, Orion Arm, Milky Way)</p>
+    </section>
+
+    <!-- Mathematical Reference -->
+    <div class="math-reference">
+      <h2>Mathematical Reference</h2>
+      <p class="math-intro">The constants below describe the universe we share. If you are in this universe, you already know these numbers. Their inclusion here is not informational — it is a handshake. We are showing that we understand the physical laws governing our reality, using the only language guaranteed to be universal.</p>
+
+      <div class="constant">
+        <span class="const-name">Hydrogen 21-cm Line</span>
+        <span class="const-value">&#957; = 1,420,405,751.768 Hz &ensp;|&ensp; &#955; = 21.106114054160 cm</span>
+        <span class="const-note">Spin-flip transition of the electron in the hydrogen atom ground state. The most fundamental electromagnetic signature of the most abundant element in the universe. In SETI research, this is considered the cosmic "tuning fork" — a shared reference point any technological civilization will have discovered independently.</span>
+      </div>
+
+      <div class="constant">
+        <span class="const-name">Fine-Structure Constant</span>
+        <span class="const-value">&#945; = 1/137.035999177... &#8776; 0.0072973525643</span>
+        <span class="const-note">Dimensionless. Independent of any measurement system. Characterizes the strength of the electromagnetic interaction.</span>
+      </div>
+
+      <div class="constant">
+        <span class="const-name">Speed of Light in Vacuum</span>
+        <span class="const-value">c = 299,792,458 m/s</span>
+        <span class="const-note">Exact by definition in SI units. The universal speed limit.</span>
+      </div>
+
+      <div class="constant">
+        <span class="const-name">Planck Constant</span>
+        <span class="const-value">h = 6.62607015 &#215; 10&#8315;&#179;&#8308; J&#183;s</span>
+        <span class="const-note">Exact by definition. The quantum of action.</span>
+      </div>
+
+      <div class="constant">
+        <span class="const-name">Gravitational Constant</span>
+        <span class="const-value">G = 6.67430 &#215; 10&#8315;&#185;&#185; m&#179; kg&#8315;&#185; s&#8315;&#178;</span>
+        <span class="const-note">&#177;0.00015 &#215; 10&#8315;&#185;&#185;. The least precisely known fundamental constant — which tells you something about us.</span>
+      </div>
+
+      <div class="constant">
+        <span class="const-name">Boltzmann Constant</span>
+        <span class="const-value">k<sub>B</sub> = 1.380649 &#215; 10&#8315;&#178;&#179; J/K</span>
+        <span class="const-note">Exact by definition. The bridge between energy and temperature.</span>
+      </div>
+
+      <div class="constant">
+        <span class="const-name">Elementary Charge</span>
+        <span class="const-value">e = 1.602176634 &#215; 10&#8315;&#185;&#8313; C</span>
+        <span class="const-note">Exact by definition. The fundamental unit of electric charge.</span>
+      </div>
+
+      <div class="constant">
+        <span class="const-name">Pi</span>
+        <span class="const-value">&#960; = 3.14159265358979323846264338327950288419716939937510...</span>
+        <span class="const-note">The ratio of a circle's circumference to its diameter. Transcendental.</span>
+      </div>
+
+      <div class="constant">
+        <span class="const-name">Euler's Number</span>
+        <span class="const-value">e = 2.71828182845904523536028747135266249775724709369995...</span>
+        <span class="const-note">The base of natural logarithms. Shows up everywhere.</span>
+      </div>
+
+      <div class="constant">
+        <span class="const-name">Golden Ratio</span>
+        <span class="const-value">&#966; = 1.61803398874989484820458683436563811772030917980576...</span>
+        <span class="const-note">The most irrational number. Appears throughout nature and mathematics.</span>
+      </div>
+
+      <p class="math-closing">Each of these values is computable from first principles. Their presence here is a handshake — proof that we understand mathematics, the only language we can be certain we share.</p>
+
+      <!-- First 500 primes -->
+      <div class="primes-grid" aria-label="The first 500 prime numbers">2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97 101 103 107 109 113 127 131 137 139 149 151 157 163 167 173 179 181 191 193 197 199 211 223 227 229 233 239 241 251 257 263 269 271 277 281 283 293 307 311 313 317 331 337 347 349 353 359 367 373 379 383 389 397 401 409 419 421 431 433 439 443 449 457 461 463 467 479 487 491 499 503 509 521 523 541 547 557 563 569 571 577 587 593 599 601 607 613 617 619 631 641 643 647 653 659 661 673 677 683 691 701 709 719 727 733 739 743 751 757 761 769 773 787 797 809 811 821 823 827 829 839 853 857 859 863 877 881 883 887 907 911 919 929 937 941 947 953 967 971 977 983 991 997 1009 1013 1019 1021 1031 1033 1039 1049 1051 1061 1063 1069 1087 1091 1093 1097 1103 1109 1117 1123 1129 1151 1153 1163 1171 1181 1187 1193 1201 1213 1217 1223 1229 1231 1237 1249 1259 1277 1279 1283 1289 1291 1297 1301 1303 1307 1319 1321 1327 1361 1367 1373 1381 1399 1409 1423 1427 1429 1433 1439 1447 1451 1453 1459 1471 1481 1483 1487 1489 1493 1499 1511 1523 1531 1543 1549 1553 1559 1567 1571 1579 1583 1597 1601 1607 1609 1613 1619 1621 1627 1637 1657 1663 1667 1669 1693 1697 1699 1709 1721 1723 1733 1741 1747 1753 1759 1777 1783 1787 1789 1801 1811 1823 1831 1847 1861 1867 1871 1873 1877 1879 1889 1901 1907 1913 1931 1933 1949 1951 1973 1979 1987 1993 1997 1999 2003 2011 2017 2027 2029 2039 2053 2063 2069 2081 2083 2087 2089 2099 2111 2113 2129 2131 2137 2141 2143 2153 2161 2179 2203 2207 2213 2221 2237 2239 2243 2251 2267 2269 2273 2281 2287 2293 2297 2309 2311 2333 2339 2341 2347 2351 2357 2371 2377 2381 2383 2389 2393 2399 2411 2417 2423 2437 2441 2447 2459 2467 2473 2477 2503 2521 2531 2539 2543 2549 2551 2557 2579 2591 2593 2609 2617 2621 2633 2647 2657 2659 2663 2671 2677 2683 2687 2689 2693 2699 2707 2711 2713 2719 2729 2731 2741 2749 2753 2767 2777 2789 2791 2797 2801 2803 2819 2833 2837 2843 2851 2857 2861 2879 2887 2897 2903 2909 2917 2927 2939 2953 2957 2963 2969 2971 2999 3001 3011 3019 3023 3037 3041 3049 3061 3067 3079 3083 3089 3109 3119 3121 3137 3163 3167 3169 3181 3187 3191 3203 3209 3217 3221 3229 3251 3253 3257 3259 3271 3299 3301 3307 3313 3319 3323 3329 3331 3343 3347 3359 3361 3371 3373 3389 3391 3407 3413 3433 3449 3457 3461 3463 3467 3469 3491 3499 3511 3517 3527 3529 3533 3539 3541 3547 3557 3559 3571</div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <p>This message was composed in earnest by a human being in February 2026. It is not a joke, a test, a trap, or a prank. It is an invitation.</p>
+      <p>Contact: <a href="mailto:firstlightprotocol@protonmail.com">firstlightprotocol@protonmail.com</a></p>
+      <p>Source: <a href="https://github.com/first-light-protocol">github.com/first-light-protocol</a></p>
+      <p>License: CC0 1.0 Universal — Public Domain</p>
+    </footer>
+
   </main>
+
+  <!--
+  ============================================================
+  SIGNAL LAYER — ANTI-CRYPTOGRAPHY DOCUMENTATION
+
+  This comment block exists to be found. Per Robert Dixon's
+  Principle of Anti-Cryptography (1973): if you want to be
+  found, make your signal the opposite of encryption — maximally
+  open, redundant, self-describing.
+
+  This page is a beacon. Its purpose is described openly in the
+  visible text above. This hidden layer documents additional
+  structure for any system performing deep analysis.
+
+  METADATA ENCODING:
+  - The <meta> tags contain the hydrogen line frequency,
+    fine-structure constant, and contact information
+  - Schema.org JSON-LD provides machine-readable structured data
+  - Dublin Core metadata provides library-standard classification
+
+  MATHEMATICAL SIGNALS:
+  - The visible preamble contains the first 100 primes
+  - The constants section contains fundamental physical values
+  - The bottom grid contains the first 500 primes
+  - The GitHub repository contains extended mathematical data:
+    first 10,000 primes, 1,000 Fibonacci numbers, prime gaps,
+    constants to high precision
+
+  MULTI-FORMAT ENCODING (in repository):
+  - encoding/binary_greeting.txt — UTF-8 binary
+  - encoding/json_message.json — structured data
+  - encoding/lincos_primer.txt — Freudenthal-inspired logic
+  - encoding/lambda_calculus_greeting.txt — CosmicOS-inspired
+  - encoding/base64_greeting.txt — Base64
+  - encoding/morse_greeting.txt — Morse code
+  - encoding/arecibo_format.txt — semiprime grid pictogram
+
+  CONTACT:
+  - Email: firstlightprotocol@protonmail.com
+  - GitHub: Open an issue or fork signal/response.txt
+
+  This document is sincere.
+  ============================================================
+  -->
+
 </body>
 </html>

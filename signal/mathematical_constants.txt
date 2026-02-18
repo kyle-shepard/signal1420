@@ -1,0 +1,31 @@
+FIRST LIGHT PROTOCOL — MATHEMATICAL CONSTANTS
+============================================================
+These constants are universal. Their values are independent
+of any unit system, language, or coordinate convention.
+They are offered as a shared mathematical handshake.
+============================================================
+
+Name    : Pi
+Symbol  : π
+Value   : 3.14159265358979323846264338327950288419716939937510
+Digits  : 50 decimal digits shown
+Desc.   : The ratio of a circle's circumference to its diameter. Transcendental and irrational. Appears in geometry, trigonometry, probability, and throughout physics.
+
+Name    : Euler's Number
+Symbol  : e
+Value   : 2.71828182845904523536028747135266249775724709369995
+Digits  : 50 decimal digits shown
+Desc.   : The base of the natural logarithm. The unique real number whose exponential function is its own derivative. Fundamental to growth, decay, and complex analysis.
+
+Name    : Golden Ratio
+Symbol  : φ (phi)
+Value   : 1.61803398874989484820458683436563811772030917980576
+Digits  : 50 decimal digits shown
+Desc.   : The positive solution to x² = x + 1. The limit of the ratio of consecutive Fibonacci numbers. Appears in phyllotaxis, art, and architecture on our world.
+
+Name    : Square Root of Two
+Symbol  : √2
+Value   : 1.41421356237309504880168872420969807856967187537694
+Digits  : 50 decimal digits shown
+Desc.   : The length of the diagonal of a unit square. The first number proven irrational (attributed to the Pythagoreans, ~500 BCE). Simple, fundamental, incommensurable.
+

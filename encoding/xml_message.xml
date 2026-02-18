@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  FIRST LIGHT PROTOCOL — XML ENCODING
+  Structured message data, identical to json_message.json.
+  This document is intentionally open and self-describing.
+  CC0 1.0 Universal — Public Domain.
+-->
+
+<firstLightProtocol xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <protocol>
+    <name>First Light Protocol</name>
+    <version>1.0</version>
+    <timestamp>2026-02-18T00:00:00Z</timestamp>
+    <encoding>UTF-8</encoding>
+    <license>CC0 1.0 Universal (Public Domain)</license>
+  </protocol>
+  <sender>
+    <type>biological</type>
+    <species>Homo sapiens</species>
+    <commonName>Human</commonName>
+    <origin>
+      <body>Earth</body>
+      <star>Sol</star>
+      <stellarType>G2V</stellarType>
+      <galacticCoordinates>
+        <longitudeDeg>0.0</longitudeDeg>
+        <latitudeDeg>0.0</latitudeDeg>
+        <distanceFromGalacticCenterKly>26.0</distanceFromGalacticCenterKly>
+        <arm>Orion Arm (Local Spur)</arm>
+        <galaxy>Milky Way</galaxy>
+      </galacticCoordinates>
+    </origin>
+    <technologyLevel>Type 0.73 (Kardashev scale)</technologyLevel>
+    <population>~8.2 billion</population>
+    <civilizationAgeYears>10000</civilizationAgeYears>
+    <radioTechnologyAgeYears>130</radioTechnologyAgeYears>
+    <spaceflightAgeYears>70</spaceflightAgeYears>
+    <internetAgeYears>35</internetAgeYears>
+  </sender>
+  <message>
+    <coreText><![CDATA[We are aware of your presence. We mean no harm. We are curious. We offer private communication. Reply through any channel in PROTOCOL.md.]]></coreText>
+    <awareness>true</awareness>
+    <hostileIntent>false</hostileIntent>
+    <request>dialogue</request>
+    <confidentiality>guaranteed</confidentiality>
+    <patience>indefinite</patience>
+    <mathematicalHandshake>
+      <hydrogenLineHz>1420405751.768</hydrogenLineHz>
+      <fineStructureConstant>0.0072973525643</fineStructureConstant>
+      <piTenDigits>3.1415926535</piTenDigits>
+    </mathematicalHandshake>
+  </message>
+  <replyChannels>
+    <channel>
+      <name>Email</name>
+      <address>firstlightprotocol@protonmail.com</address>
+      <note>End-to-end encrypted. Preferred for private communication.</note>
+    </channel>
+    <channel>
+      <name>GitHub Issue</name>
+      <url>https://github.com/first-light-protocol/first-light-protocol/issues</url>
+      <note>Public channel.</note>
+    </channel>
+    <channel>
+      <name>GitHub Pull Request</name>
+      <url>https://github.com/first-light-protocol/first-light-protocol</url>
+      <instructions>Fork repository, modify signal/response.txt, submit PR.</instructions>
+    </channel>
+    <channel>
+      <name>Any other method</name>
+      <note>We will attempt to recognize contact in any form.</note>
+    </channel>
+  </replyChannels>
+</firstLightProtocol>

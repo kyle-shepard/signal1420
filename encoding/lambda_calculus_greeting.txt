@@ -1,0 +1,157 @@
+FIRST LIGHT PROTOCOL — LAMBDA CALCULUS ENCODING
+================================================
+Inspired by the CosmicOS project (Paul Fitzpatrick) and Church's
+lambda calculus (Alonzo Church, 1932-1936). Lambda calculus is a
+universal model of computation. Any system capable of computation
+can evaluate these terms.
+
+Notation: λx.M means "a function of x that returns M".
+          (M N) means "apply function M to argument N".
+          Variables are single lowercase letters or descriptive names.
+
+================================================
+SECTION 1: CHURCH NUMERALS
+================================================
+Church numerals encode natural numbers as higher-order functions.
+A Church numeral n is a function that applies its argument n times.
+
+  ZERO  = λf.λx.x            -- applies f zero times
+  ONE   = λf.λx.(f x)        -- applies f once
+  TWO   = λf.λx.(f (f x))    -- applies f twice
+  THREE = λf.λx.(f (f (f x)))
+  SUCC  = λn.λf.λx.(f (n f x))   -- successor function
+  ADD   = λm.λn.λf.λx.(m f (n f x))
+  MULT  = λm.λn.λf.(m (n f))
+
+Verification:
+  SUCC ZERO = ONE
+  ADD ONE ONE = TWO
+  MULT TWO THREE = SIX
+
+Primes as Church numerals:
+  TWO   = λf.λx.(f (f x))
+  THREE = λf.λx.(f (f (f x)))
+  FIVE  = λf.λx.(f (f (f (f (f x)))))
+  (The prime sequence is the mathematical handshake — see signal/prime_sieve.txt)
+
+================================================
+SECTION 2: CHURCH BOOLEANS
+================================================
+Boolean values as selectors between two alternatives.
+
+  TRUE  = λa.λb.a    -- selects first argument
+  FALSE = λa.λb.b    -- selects second argument
+
+  AND   = λp.λq.(p q p)         -- AND p q
+  OR    = λp.λq.(p p q)         -- OR p q
+  NOT   = λp.λa.λb.(p b a)      -- NOT p
+  IF    = λp.λa.λb.(p a b)      -- IF p THEN a ELSE b
+
+Verification:
+  AND TRUE TRUE   = TRUE
+  AND TRUE FALSE  = FALSE
+  OR  FALSE TRUE  = TRUE
+  NOT TRUE        = FALSE
+  NOT FALSE       = TRUE
+
+================================================
+SECTION 3: PAIRS (for encoding structured data)
+================================================
+
+  PAIR  = λa.λb.λf.(f a b)      -- construct a pair
+  FIRST = λp.(p TRUE)            -- extract first element
+  SECOND = λp.(p FALSE)          -- extract second element
+
+Example:
+  PAIR ONE TWO = λf.(f ONE TWO)
+  FIRST (PAIR ONE TWO) = ONE
+  SECOND (PAIR ONE TWO) = TWO
+
+================================================
+SECTION 4: ENCODING THE CORE MESSAGE CONCEPTS
+================================================
+
+Define the two entities and their properties as lambda terms.
+
+  SENDER   = λf.(f AWARE NOT_HOSTILE CURIOUS PATIENT)
+             -- A 4-tuple: (aware=T, hostile=F, curious=T, patient=T)
+
+  RECEIVER = λf.(f UNKNOWN UNKNOWN UNKNOWN UNKNOWN)
+             -- Properties of receiver are unknown to sender.
+
+Where:
+  AWARE      = TRUE              -- λa.λb.a
+  NOT_HOSTILE = FALSE            -- λa.λb.b  (hostile = FALSE)
+  CURIOUS    = TRUE              -- λa.λb.a
+  PATIENT    = TRUE              -- λa.λb.a
+  UNKNOWN    = λa.λb.(a b)       -- placeholder (identity-like)
+
+Full sender term (substituting booleans):
+  SENDER = λf.(f (λa.λb.a) (λa.λb.b) (λa.λb.a) (λa.λb.a))
+             -- (aware=TRUE, hostile=FALSE, curious=TRUE, patient=TRUE)
+
+================================================
+SECTION 5: THE INVITATION AS A LAMBDA TERM
+================================================
+
+The core message can be encoded as a conditional application:
+
+  MESSAGE = λreceiver.(
+    IF (AND (KNOWS receiver SENDER)
+            (NOT (HOSTILE receiver)))
+       (INVITE receiver SENDER)
+       WAIT
+  )
+
+Where:
+  KNOWS   = λx.λy.(x y)         -- simplified: x knows y if x can reference y
+  HOSTILE = λx.(x FALSE ...)     -- extracts hostile-intent from entity tuple
+  INVITE  = λx.λy.(PAIR x y)    -- pair the two entities (begin dialogue)
+  WAIT    = λx.x                 -- identity (patience, no action)
+
+Reading: "Given a receiver entity, if the receiver knows the sender
+and is not hostile, then invite (pair) them with the sender; otherwise,
+wait (identity — the message persists unchanged)."
+
+================================================
+SECTION 6: THE CORE MESSAGE STRING AS BYTES
+================================================
+
+The message "We are aware of your presence. We mean no harm. We are curious. We offer private communication. Reply through any channel in PROTOCOL.md."
+encoded as Church numerals of its UTF-8 byte values:
+
+First 8 bytes of UTF-8 encoding ('W', 'e', ' ', 'a', 'r', 'e', ' ', 'a'):
+  'W' = 87  = MULT EIGHT EIGHT + ADD MULT TWO THREE PLUS ONE
+            ≈ church(87)
+  'e' = 101 ≈ church(101)
+  ' ' = 32  ≈ church(32)
+  'a' = 97  ≈ church(97)
+  'r' = 114 ≈ church(114)
+  'e' = 101 ≈ church(101)
+  ' ' = 32  ≈ church(32)
+  'a' = 97  ≈ church(97)
+
+  (Exact Church numeral for n: λf.λx.(f^n x) where f^n = f applied n times)
+
+Full byte sequence (decimal):
+  87 101 32 97 114 101 32 97 119 97 114 101 32 111 102 32 121 111 117 114 32 112 114 101 115 101 110 99 101 46 32 87 101 32 109 101 97 110 32 110 111 32 104 97 114 109 46 32 87 101 32 97 114 101 32 99 117 114 105 111 117 115 46 32 87 101 32 111 102 102 101 114 32 112 114 105 118 97 116 101 32 99 111 109 109 117 110 105 99 97 116 105 111 110 46 32 82 101 112 108 121 32 116 104 114 111 117 103 104 32 97 110 121 32 99 104 97 110 110 101 108 32 105 110 32 80 82 79 84 79 67 79 76 46 109 100 46
+
+A system that can evaluate lambda calculus and recognize Church numerals
+can reconstruct the full message from the byte sequence above.
+
+================================================
+SECTION 7: FIXED POINT (Y COMBINATOR)
+================================================
+
+The Y combinator enables recursion in lambda calculus.
+Its presence here is both a technical demonstration and a philosophical note:
+self-reference, like this message, is possible within formal systems.
+
+  Y = λf.(λx.(f (x x)) λx.(f (x x)))
+
+A self-referential message:
+  SELF_DESCRIBING = Y (λm.m)
+  -- A term that, when applied to itself, returns itself.
+  -- Like a signal that says: "I am a signal."
+
+END OF LAMBDA CALCULUS ENCODING

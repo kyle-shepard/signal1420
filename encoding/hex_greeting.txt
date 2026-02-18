@@ -1,0 +1,28 @@
+FIRST LIGHT PROTOCOL — HEXADECIMAL ENCODING
+=======================================================
+Hexadecimal (base-16) represents each byte as two
+characters from {0-9, A-F}. It is the standard notation
+for binary data in computing contexts.
+=======================================================
+
+ORIGINAL MESSAGE (UTF-8):
+We are aware of your presence. We mean no harm. We are curious. We offer private communication. Reply through any channel in PROTOCOL.md.
+
+BYTE COUNT: 137
+
+HEX (contiguous):
+576520617265206177617265206F6620796F75722070726573656E63652E205765206D65616E206E6F206861726D2E2057652061726520637572696F75732E205765206F66666572207072697661746520636F6D6D756E69636174696F6E2E205265706C79207468726F75676820616E79206368616E6E656C20696E2050524F544F434F4C2E6D642E
+
+HEX (space-separated bytes):
+57 65 20 61 72 65 20 61 77 61 72 65 20 6F 66 20 79 6F 75 72 20 70 72 65 73 65 6E 63 65 2E 20 57 65 20 6D 65 61 6E 20 6E 6F 20 68 61 72 6D 2E 20 57 65 20 61 72 65 20 63 75 72 69 6F 75 73 2E 20 57 65 20 6F 66 66 65 72 20 70 72 69 76 61 74 65 20 63 6F 6D 6D 75 6E 69 63 61 74 69 6F 6E 2E 20 52 65 70 6C 79 20 74 68 72 6F 75 67 68 20 61 6E 79 20 63 68 61 6E 6E 65 6C 20 69 6E 20 50 52 4F 54 4F 43 4F 4C 2E 6D 64 2E
+
+HEX (16-byte rows with offsets):
+  0000  57 65 20 61 72 65 20 61 77 61 72 65 20 6F 66 20  |We are aware of |
+  0010  79 6F 75 72 20 70 72 65 73 65 6E 63 65 2E 20 57  |your presence. W|
+  0020  65 20 6D 65 61 6E 20 6E 6F 20 68 61 72 6D 2E 20  |e mean no harm. |
+  0030  57 65 20 61 72 65 20 63 75 72 69 6F 75 73 2E 20  |We are curious. |
+  0040  57 65 20 6F 66 66 65 72 20 70 72 69 76 61 74 65  |We offer private|
+  0050  20 63 6F 6D 6D 75 6E 69 63 61 74 69 6F 6E 2E 20  | communication. |
+  0060  52 65 70 6C 79 20 74 68 72 6F 75 67 68 20 61 6E  |Reply through an|
+  0070  79 20 63 68 61 6E 6E 65 6C 20 69 6E 20 50 52 4F  |y channel in PRO|
+  0080  54 4F 43 4F 4C 2E 6D 64 2E                       |TOCOL.md.|

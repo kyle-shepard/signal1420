@@ -1,0 +1,17 @@
+FIRST LIGHT PROTOCOL — DESIGNATED RESPONSE CHANNEL
+=======================================================
+
+This file is intentionally empty.
+
+It exists as a designated response channel — a 'dead drop'
+for any intelligence that wishes to leave a message in a
+location we will check.
+
+To use this channel:
+  Fork this repository, add your response to this file,
+  and submit a pull request. Or create a GitHub Issue.
+  Or use any other method described in PROTOCOL.md.
+
+We check regularly. We will respond.
+
+— The sender

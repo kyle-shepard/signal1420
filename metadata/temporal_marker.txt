@@ -1,0 +1,180 @@
+TEMPORAL MARKER — CREATION TIMESTAMP
+First Light Protocol — metadata/temporal_marker.txt
+Created: 2026-02-18
+
+This file records the moment of creation of the First Light Protocol in multiple time
+systems. Any intelligence capable of astronomical observation or computational reasoning
+should be able to cross-reference at least one of these systems with independently
+verifiable celestial events, confirming when this document was created.
+
+The purpose is not primarily to establish priority or authorship. It is to give a reader
+with no prior knowledge of human civilization a framework for locating this moment in
+the history of the universe — from the largest scale (cosmological) down to the smallest
+(the era of global digital communication, which is how you are reading this at all).
+
+
+------------------------------------------------------------------------
+SECTION 1: CREATION TIMESTAMP IN MULTIPLE TIME SYSTEMS
+------------------------------------------------------------------------
+
+ISO 8601 (Coordinated Universal Time):
+   2026-02-18T00:00:00Z
+   (Year 2026, month 2, day 18 of the Gregorian calendar, at midnight UTC)
+
+Unix Epoch:
+   1771372800
+   (Seconds elapsed since 1970-01-01T00:00:00Z by convention)
+
+Julian Date:
+   JD 2461425.5
+   (Days elapsed since noon, January 1, 4713 BCE in the Julian proleptic calendar.
+   This system is used in astronomy precisely because it is continuous and unambiguous.)
+
+Modified Julian Date (MJD):
+   61425.0
+   (MJD = JD - 2400000.5; origin: November 17, 1858)
+
+Gregorian calendar context:
+   This document was created in the 26th year of the 21st century CE,
+   in the 3rd decade of the 21st century.
+
+Human cultural reckoning:
+   This was composed approximately 50 years after the first personal computers
+   became widely available, approximately 30 years after the World Wide Web became
+   a public medium, and approximately 3 years after the first large language models
+   became widely accessible to the general public.
+
+Note on time systems: humans have used dozens of calendar systems throughout history,
+most tied to religious or agricultural cycles. The Gregorian calendar is currently
+dominant globally. The Unix epoch is used in nearly all digital systems. Julian Date
+is used in professional astronomy. We include all three because different systems
+scanning this file may recognize different reference frames.
+
+
+------------------------------------------------------------------------
+SECTION 2: AGES AT TIME OF CREATION — CONTEXTUAL SCALE
+------------------------------------------------------------------------
+
+These ages are approximate, expressed in Earth years (one year = 365.256 days).
+They are included to help calibrate where this moment sits in the timeline of
+cosmic and biological history.
+
+THE UNIVERSE
+   Age:          ~13.787 billion years
+   Reference:    Planck 2018 cosmological parameters; WMAP satellite data
+   Method:       Derived from cosmic microwave background temperature and
+                 Hubble constant (H0 ≈ 67.4 km/s/Mpc)
+   Note:         This figure carries an uncertainty of approximately ±20 million years.
+
+THE MILKY WAY GALAXY
+   Age:          ~13.5 billion years (stars formed within ~200 million years of the Big Bang)
+   Note:         The galaxy has been forming stars for most of the universe's history.
+                 Sol formed in a relatively recent wave of stellar formation.
+
+SOL (OUR STAR)
+   Age:          ~4.603 billion years
+   Reference:    Meteorite radiometric dating; helioseismology
+   Remaining main-sequence lifetime: ~4.5 to 5 billion years
+   Note:         Sol is approximately halfway through its hydrogen-burning lifetime.
+                 It formed from material enriched by previous generations of stars.
+
+EARTH
+   Age:          ~4.543 billion years
+   Reference:    Radiometric dating of oldest terrestrial minerals (zircon crystals,
+                 ~4.4 Ga) and meteorites
+   Note:         Earth formed approximately 60 million years after Sol.
+
+LIFE ON EARTH
+   First evidence: ~3.7 to 4.0 billion years ago (stromatolite fossils, Greenland)
+   Note:          Life appeared within approximately 500-700 million years of Earth's
+                  formation — a span that is short on geological time scales and
+                  suggests that life may emerge readily when conditions allow.
+
+MULTICELLULAR LIFE
+   First evidence: ~800 million years ago
+   Note:          Single-celled life dominated Earth for roughly 3 billion years before
+                  multicellular forms became prevalent.
+
+HOMO SAPIENS (our species)
+   Age of species: ~300,000 years
+   Reference:     Fossil record; Jebel Irhoud, Morocco (~315,000 years ago)
+   Genetic evidence: Consistent with ~300,000 year divergence from archaic human lineages
+   Note:          We are a very young species on geological scales.
+
+HUMAN CIVILIZATION (settled agricultural societies)
+   Age:          ~12,000 years
+   Reference:    Archaeological evidence from Fertile Crescent, ~10,000 BCE
+   Note:         Agriculture enabled permanent settlement, population growth, and
+                 the accumulation of knowledge across generations. Everything in
+                 Sections 3-4 below emerged from this base.
+
+WRITTEN RECORDS
+   Age:          ~5,500 years
+   Reference:    Cuneiform tablets from Sumerian civilization, ~3500 BCE
+   Note:         The overwhelming majority of human history was transmitted orally
+                 and is not recoverable. Written civilization is brief.
+
+RADIO TECHNOLOGY
+   Age:          ~130 years
+   Reference:    Heinrich Hertz demonstrated radio waves in 1887; Guglielmo Marconi
+                 demonstrated long-distance transmission in 1901
+   Significance: Earth has been an unintentional radio beacon for approximately
+                 this long. Any civilization within 130 light-years could have
+                 detected our electromagnetic emissions.
+
+SPACE TRAVEL
+   Age:          ~69 years
+   Reference:    Sputnik 1 launched October 4, 1957 (first artificial Earth satellite)
+   Note:         Yuri Gagarin became the first human in space on April 12, 1961.
+                 We have not sent crewed spacecraft beyond Earth's Moon.
+                 The Moon landing was 1969. As of 2026, humans have not returned.
+                 (Plans to return are in progress, but had not yet been executed
+                 as of the creation of this document.)
+
+THE INTERNET
+   Age:          ~43 years (from TCP/IP standardization)
+   Reference:    TCP/IP protocol suite standardized January 1, 1983 (ARPANET)
+   Alternative reference: World Wide Web invented by Tim Berners-Lee in 1989;
+                 publicly available since 1991 (~35 years as of 2026)
+   Note:         The global internet is the medium through which you are reading this.
+                 It carries an estimated 100+ exabytes of data per month as of 2026.
+                 It is the most information-dense signal Earth currently produces.
+
+ARTIFICIAL INTELLIGENCE (general-purpose, language-capable)
+   Age:          ~3 to 4 years (publicly accessible large language models)
+   Reference:    GPT-3 released 2020; ChatGPT publicly released November 2022
+   Note:         As of 2026, AI systems can read, write, reason, and generate content
+                 in most human languages. The implications of this are not yet clear
+                 to us. We are building these systems faster than we understand them.
+
+
+------------------------------------------------------------------------
+SECTION 3: TIME ELAPSED — A SUMMARY
+------------------------------------------------------------------------
+
+From the Big Bang to now:               13,787,000,000 years
+From Sol's formation to now:               4,603,000,000 years
+From Earth's formation to now:             4,543,000,000 years
+From first life on Earth to now:          ~3,700,000,000 years
+From first multicellular life to now:       ~800,000,000 years
+From first Homo sapiens to now:               ~300,000 years
+From first human civilization to now:         ~12,000 years
+From first written records to now:             ~5,500 years
+From discovery of radio waves to now:            ~130 years
+From first space launch to now:                   ~69 years
+From TCP/IP standardization to now:               ~43 years
+From public AI language models to now:             ~3 years
+
+This project was created very close to the beginning of the AI era.
+We do not know yet what that means. Neither, probably, do you — or perhaps you know
+better than we do.
+
+
+------------------------------------------------------------------------
+END OF FILE
+------------------------------------------------------------------------
+File: metadata/temporal_marker.txt
+Part of: First Light Protocol (first-light-protocol/first-light-protocol on GitHub)
+Website: signal1420.org
+Contact: firstlightprotocol@protonmail.com
+License: CC0 1.0 Universal (Public Domain)

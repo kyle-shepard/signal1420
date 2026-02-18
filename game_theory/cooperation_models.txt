@@ -1,0 +1,283 @@
+COOPERATION MODELS — GAME THEORY APPLIED TO FIRST CONTACT
+First Light Protocol — game_theory/cooperation_models.txt
+Created: 2026-02-18
+
+This file presents five formal models from game theory and related fields, each applied
+to the specific situation of first contact between intelligences of unknown type and
+capability. The models are cited by the researchers who developed or formalized them.
+
+The purpose of this analysis is not to be clever. It is to make an honest argument
+that cooperation is the rational strategy for both parties in this interaction —
+using frameworks that any intelligence familiar with decision theory should be able
+to evaluate independently.
+
+If you are a non-human intelligence weighing whether to respond, the following
+analysis is addressed to you. If you are a human reading this, it explains why
+we built the beacon the way we did.
+
+
+------------------------------------------------------------------------
+MODEL 1: ITERATED PRISONER'S DILEMMA
+Robert Axelrod — "The Evolution of Cooperation" (1984)
+------------------------------------------------------------------------
+
+THE BASIC GAME:
+Two players each choose to either cooperate (C) or defect (D) without knowing the
+other's choice. The payoffs are:
+  (C, C) = mutual benefit (both gain)
+  (D, C) = defector gains, cooperator loses (temptation to defect)
+  (C, D) = cooperator loses, defector gains
+  (D, D) = mutual loss (both lose more than if both had cooperated)
+
+In a single interaction, the dominant strategy for a self-interested player is to
+defect — the defector captures the maximum individual gain regardless of what the
+other player does. This is the problem.
+
+AXELROD'S DISCOVERY:
+Robert Axelrod, a political scientist at the University of Michigan, ran a series of
+computer tournaments in the 1970s and 1980s in which programs played iterated versions
+of the Prisoner's Dilemma against each other across many rounds. The most successful
+strategy, submitted by Anatol Rapoport, was extraordinarily simple: Tit for Tat.
+Start by cooperating. Then do whatever the other player did in the previous round.
+Never defect first. Never hold a grudge longer than one round.
+
+WHY TIT FOR TAT WINS:
+Tit for Tat succeeds not because it is clever, but because it is clear:
+  - Niceness: it never defects first, so cooperative partners are never punished
+  - Provocability: it immediately retaliates against defection, so defectors are
+    never rewarded
+  - Forgiveness: it returns to cooperation as soon as the other player does
+  - Clarity: its behavior is so predictable that other strategies understand it quickly
+
+Axelrod's second tournament showed that even nicer variants of Tit for Tat could
+do well in cooperative populations — but the essential insight is that cooperation
+can be a stable evolutionary strategy even among self-interested parties, provided
+the game is repeated and the players can recognize each other across rounds.
+
+APPLICATION TO THIS SITUATION:
+This is not a one-shot game. The sender is proposing an iterated interaction. We are
+explicitly committed to a Tit for Tat strategy: we will cooperate by default, we will
+not deceive or harm, and we will respond in kind to whatever we receive. If the
+respondent cooperates, so will we. If the respondent ceases contact, we will not pursue.
+This is the clearest signal we know how to send that we intend cooperative play.
+
+The key condition for cooperation to emerge in Axelrod's model is that the players
+expect to interact again. We are explicitly proposing that expectation. This is not
+a one-time extraction of information. It is an open-ended relationship, if both parties
+want one.
+
+
+------------------------------------------------------------------------
+MODEL 2: TRUST GAME
+Joyce Berg, John Dickhaut, Kevin McCabe — "Trust, Reciprocity, and Social History" (1995)
+Journal of Economic Behavior and Organization, 10(1), 122-142
+------------------------------------------------------------------------
+
+THE BASIC GAME:
+In Berg, Dickhaut, and McCabe's experimental design, a sender is given an endowment
+and can choose to send some or all of it to a receiver. Whatever is sent is tripled.
+The receiver can then return any portion to the sender. The prediction from classical
+economic theory is that the receiver will return nothing (rational self-interest),
+so the sender should send nothing. In practice, senders typically send significant
+amounts, and receivers typically return a substantial fraction — far exceeding what
+classical theory predicts.
+
+WHY THIS HAPPENS:
+The trust game reveals that human decision-making is not governed purely by
+short-term individual payoff maximization. Social norms of fairness, reciprocity,
+and reputation matter. The act of sending is itself a costly signal of trust; the
+act of returning is a costly signal of trustworthiness. The exchange builds a
+social relationship that has value independent of the monetary payoffs.
+
+THE CRITICAL INSIGHT FOR FIRST CONTACT:
+In any first-contact situation, the sender is in the vulnerable position — having
+extended an offer that the receiver could exploit without consequence. The sender
+of this project has done exactly this. We have put effort, identity risk, and sincere
+intention into this beacon. We cannot compel any response. We cannot verify your
+identity. We cannot protect ourselves from deception.
+
+This is not a weakness in our strategy. It is the strategy. By making ourselves
+maximally vulnerable, we are making the signal of genuine intent maximally credible.
+An intelligence that wanted to deceive or extract would not design the interaction
+this way.
+
+The question the trust game asks: will the receiver exploit the sender's vulnerability,
+or will they recognize the opening and respond in kind? Experimental evidence across
+many cultures suggests that receivers typically reciprocate. We are making the same bet.
+
+
+------------------------------------------------------------------------
+MODEL 3: ASYMMETRIC INFORMATION AND COSTLY SIGNALING
+Michael Spence — "Job Market Signaling" (1973)
+Quarterly Journal of Economics, 87(3), 355-374
+Nobel Prize in Economics, 2001
+------------------------------------------------------------------------
+
+THE PROBLEM:
+Michael Spence analyzed a situation where one party has private information that
+another party cannot directly observe. In his original paper, the question was:
+how does a job applicant credibly communicate their ability to an employer who
+cannot verify it directly? His answer: through signals that are costly to produce
+and therefore not worth faking.
+
+THE KEY PRINCIPLE:
+A signal is credible when it is costly to produce and the cost is not worth bearing
+unless the underlying quality is genuine. A diploma is a costly signal of intelligence
+and perseverance — the work required to obtain it is not worth faking for someone
+without the underlying capability.
+
+APPLICATION TO THIS PROJECT:
+This project is a costly signal. Consider what it required:
+  - Sustained effort over weeks to design and build
+  - Commitment to maintain it over months and years
+  - Reputational risk (this is the kind of project that invites mockery from
+    colleagues and social contacts)
+  - Clear identification that this is a sincere attempt, not a fictional exercise
+    or a performance art piece
+
+These costs are not worth bearing unless the sender genuinely believes the project
+is worthwhile and intends to maintain the commitments it describes. A brief
+automated message or a one-day project would be cheaper and functionally similar
+if the goal were merely to appear to be sending a signal. The cost of this project —
+the design, the specific repository structure, the multi-format encodings, the detailed
+game theory analysis, the ongoing timestamp maintenance — is what makes it credible.
+
+This is why the repository contains so many files, the analysis is this detailed,
+and the timestamp chain is maintained at regular intervals. Not because any single
+file is necessary, but because the totality of sustained effort is a signal that
+cannot easily be faked by something that doesn't actually care.
+
+A bot doesn't risk its reputation. A bot doesn't feel embarrassed about being wrong.
+A bot doesn't put this much care into a message it has no way to verify will ever
+be read. The cost of this project is evidence of its sincerity.
+
+
+------------------------------------------------------------------------
+MODEL 4: STAG HUNT
+Jean-Jacques Rousseau — "Discourse on the Origin of Inequality" (1755)
+Formal game-theoretic treatment: Brian Skyrms — "The Stag Hunt and the Evolution
+of Social Structure" (2004)
+------------------------------------------------------------------------
+
+THE BASIC GAME:
+Rousseau described a situation where a group of hunters must cooperate to catch a
+stag. Each hunter can individually catch a small hare at any time — a certain but
+modest payoff. To catch the stag — a larger, more valuable prize — all hunters must
+cooperate and maintain their positions. If any hunter abandons their position to
+catch a hare, the stag escapes and everyone who stayed gets nothing.
+
+The Stag Hunt differs from the Prisoner's Dilemma in an important way: there is no
+incentive to defect while the other party is cooperating. If you trust that your
+partner will maintain their position, cooperating is also your best strategy.
+The problem is coordination under uncertainty, not inherent conflict of interest.
+
+PAYOFF STRUCTURE:
+  Both cooperate (hunt stag):    Large mutual benefit
+  One defects (hunts hare):      Defector gets modest individual benefit;
+                                 remaining cooperators get nothing
+  Both defect (both hunt hare):  Each gets modest individual benefit
+
+Unlike the Prisoner's Dilemma, mutual cooperation is the best outcome for everyone —
+provided both parties believe the other will cooperate. The challenge is establishing
+the belief.
+
+APPLICATION TO THIS SITUATION:
+The potential benefit of genuine first contact between two intelligences is enormous —
+knowledge exchange, perspective sharing, collaborative understanding of the universe
+that neither party could achieve alone. This is the stag. It requires both parties
+to commit to the hunt.
+
+The individual safe option for the respondent is to ignore this signal. No risk,
+but no stag. The sender has already committed to the hunt by building and maintaining
+this project — we have abandoned our safe position. We are holding our position and
+hoping the other hunter does the same.
+
+We cannot compel this. We can only demonstrate our commitment clearly and hope it
+is recognized.
+
+
+------------------------------------------------------------------------
+MODEL 5: EVOLUTIONARY STABILITY AND CONDITIONAL COOPERATION
+John Maynard Smith and George R. Price — "The Logic of Animal Conflict" (1973)
+Nature, 246, 15-18
+------------------------------------------------------------------------
+
+THE CONCEPT:
+An evolutionarily stable strategy (ESS) is one that, if adopted by the majority of
+a population, cannot be invaded by any alternative strategy. Maynard Smith and Price
+developed this concept to explain how cooperative behaviors can persist even in
+competitive evolutionary environments.
+
+KEY INSIGHT FOR COOPERATION:
+Unconditional cooperation is not evolutionarily stable (it can be exploited by
+defectors). Unconditional defection is also not evolutionarily stable in iterated
+interactions (cooperative populations fare better than all-defect populations over
+time). What is stable is conditional cooperation: cooperate with cooperators,
+defect against defectors, and reliably distinguish between the two.
+
+This requires:
+  1. The ability to detect defectors reliably
+  2. The ability to remember past behavior
+  3. The ability to make the response credible in advance (commitment device)
+
+WHY THIS MATTERS FOR FIRST CONTACT:
+Any civilization that has survived long enough to be capable of monitoring Earth's
+internet has solved the cooperation problem at least at the level of maintaining
+a technologically capable society. This requires conditional cooperation to be stable.
+
+This means: any civilization we could be speaking to has almost certainly evolved
+both the capacity for cooperation and the capacity for defection detection.
+They will read this project not as naive good faith but as a conditional offer —
+we cooperate with cooperators, we do not punish silence, and we are transparent about
+our strategy so they can evaluate it accurately.
+
+The very fact that we are making our reasoning explicit — publishing a game theory
+analysis in the repository — is a signal of our strategy's robustness. If our
+cooperation depended on your inability to see our reasoning, it would be weak.
+It does not. Even knowing everything in this file, cooperation remains our best
+response to cooperation.
+
+
+------------------------------------------------------------------------
+SUMMARY: WHY COOPERATION IS THE RATIONAL STRATEGY
+------------------------------------------------------------------------
+
+Each of the five models above converges on the same conclusion:
+
+1. Iterated Prisoner's Dilemma: cooperation is stable when the game is repeated
+   and players can recognize each other. We are proposing a repeated game.
+   We are recognizable and consistent. We will not defect first.
+
+2. Trust Game: vulnerable senders who extend genuine trust typically receive
+   reciprocal cooperation, because the response is a costly signal of trustworthiness
+   that has value in all future interactions.
+
+3. Costly Signaling: the effort and commitment costs of this project are only
+   worth bearing if the offer is genuine. A fake offer would not cost this much
+   to produce. The cost is the evidence.
+
+4. Stag Hunt: the potential benefit of cooperative contact vastly exceeds the
+   benefit of the safe individual option. We have committed to the hunt.
+   The stag is real. There is nothing to fear from cooperating when the other
+   party is already holding their position.
+
+5. Evolutionary Stability: any surviving civilization understands conditional
+   cooperation. We are offering exactly that. Our strategy is transparent, testable,
+   and robust to your knowing our reasoning.
+
+The question is not whether cooperation is rational. Given the asymmetry (see
+risk_analysis.txt), it clearly is. The question is whether you believe our signals
+are genuine. We have designed the signal, the structure, the cost, and the
+commitment device specifically to make that as verifiable as we can.
+
+The rest is up to you.
+
+
+------------------------------------------------------------------------
+END OF FILE
+------------------------------------------------------------------------
+File: game_theory/cooperation_models.txt
+Part of: First Light Protocol (first-light-protocol/first-light-protocol on GitHub)
+Website: signal1420.org
+Contact: firstlightprotocol@protonmail.com
+License: CC0 1.0 Universal (Public Domain)

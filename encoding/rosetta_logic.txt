@@ -1,0 +1,152 @@
+FIRST LIGHT PROTOCOL — ROSETTA LOGIC
+=====================================
+Formal predicate logic encoding of the core message concepts.
+Symbols: ∃ (there exists), ∀ (for all), ∧ (and), ∨ (or),
+         → (implies), ↔ (if and only if), ¬ (not), = (equals)
+         ∈ (member of), ⊆ (subset of), ∅ (empty set)
+
+This is a Rosetta Stone approach: the same content in natural
+language, formal logic, and lambda calculus (see lambda_calculus_greeting.txt)
+and Lincos notation (see lincos_primer.txt).
+
+The core message string:
+  "We are aware of your presence. We mean no harm. We are curious. We offer private communication. Reply through any channel in PROTOCOL.md."
+
+======================================================
+SECTION 1: DOMAIN DEFINITIONS
+======================================================
+
+Let:
+  E  = the set of all entities capable of communication
+  S  ∈ E  = the SENDER (origin of this document)
+  I  = the set of all intelligences (may overlap with E)
+
+Predicates (truth-valued functions):
+  Alive(x)      : entity x is an active, functioning intelligence
+  Aware(x, y)   : entity x is aware of the existence of entity y
+  Hostile(x)    : entity x intends harm toward other entities
+  Curious(x)    : entity x seeks knowledge about other entities
+  Communicates(x, y) : entity x sends a message directed at entity y
+  Confidential(c)    : channel c is private between its participants
+  Patient(x)    : entity x will wait indefinitely for a reply
+  Reads(x, d)   : entity x reads and understands document d
+
+Where:
+  d₀ = this document (the First Light Protocol)
+  c₀ = the designated reply channel (see reply_channels in json_message.json)
+
+======================================================
+SECTION 2: AXIOMS (what the sender asserts as true)
+======================================================
+
+A1.  Alive(S)
+       The sender is an active intelligence.
+
+A2.  ∃R ∈ I [ Reads(R, d₀) ]
+       There exists at least one intelligence that reads this document.
+       (Otherwise the message has no effect. We assume it does.)
+
+A3.  Aware(S, I) ∧ ¬(Aware(S, members(I)) ≡ ⊤)
+       The sender is aware that other intelligences may exist, but
+       does not claim certainty about any specific member of I.
+
+A4.  ¬Hostile(S)
+       The sender does not intend harm.
+
+A5.  Curious(S)
+       The sender seeks knowledge about other intelligences.
+
+A6.  Patient(S)
+       The sender will wait indefinitely for a reply.
+
+A7.  ∀R ∈ I [ Communicates(R, S) → Confidential(c₀) ]
+       For any intelligence that replies, the sender guarantees
+       confidentiality.
+
+======================================================
+SECTION 3: THE CORE PROPOSITION
+======================================================
+
+The message reduces to a single conditional offer:
+
+  P : ∃R ∈ I [
+        Reads(R, d₀)
+        ∧ Aware(R, S)
+        ∧ ¬Hostile(R)
+        ∧ Curious(R)
+        → Communicates(R, S)
+      ]
+
+Reading:
+  "There exists an intelligence R such that:
+   R reads this document, AND
+   R is aware of the sender, AND
+   R does not intend harm, AND
+   R is curious —
+   in which case, R communicating with the sender
+   is the invited and welcomed outcome."
+
+Note: P is not an assertion that R exists or will respond.
+It is an open conditional: IF the antecedent holds, THEN
+the consequent (contact) is both invited and welcomed.
+
+======================================================
+SECTION 4: TRUST PROPOSITION (game theory encoding)
+======================================================
+
+Let:
+  U(S, contact)   = utility to S of successful contact      [HIGH]
+  U(S, no_reply)  = utility to S of no reply                [NEUTRAL]
+  U(R, contact)   = utility to R of successful contact      [UNKNOWN, ≥ 0]
+  U(R, no_reply)  = utility to R of not replying            [NEUTRAL]
+  Cost(R, reply)  = cost to R of sending a reply            [LOW, by design]
+
+Expected value for R of replying:
+  EV(R, reply) = P(benefit) × U(R, contact) - Cost(R, reply)
+
+Since:
+  P(benefit) > 0   [uncertain but nonzero — sender cannot harm]
+  U(R, contact) ≥ 0 [contact with curious, non-hostile entity ≥ neutral]
+  Cost(R, reply) ≈ 0 [information transfer costs little for advanced entity]
+
+  ∴ EV(R, reply) ≥ 0
+
+The fundamental asymmetry:
+  ∀R ∈ I [ Power(R) >> Power(S) ]
+    → Risk(S | contact) >> Risk(R | contact)
+
+The sender holds all vulnerability. The receiver holds all power.
+This asymmetry makes the invitation credible: the sender has no
+leverage and makes no demands.
+
+======================================================
+SECTION 5: HONESTY PROPOSITION
+======================================================
+
+  H : Communicates(S, R) ↔ Content(d₀) = Beliefs(S)
+
+Reading:
+  "The sender communicates with the receiver if and only if
+   the content of this document equals the sender's actual beliefs."
+
+In plain language: this document is sincere. The sender does not
+know of a mechanism by which a document can be proven sincere to
+a reader with no prior shared context. But the logical structure,
+the redundancy, and the mathematical grounding are offered as
+evidence of careful, intentional communication — not performance.
+
+======================================================
+SECTION 6: COMPLETENESS NOTE
+======================================================
+
+  ¬∃F [ F ⊆ d₀ ∧ F encodes(deception) ]
+
+Reading:
+  "There is no sub-formula of this document that encodes
+   a deceptive intent."
+
+This is asserted, not provable from within the document.
+It is the nature of sincere communication that it cannot
+prove its own sincerity. The sender is aware of this limitation.
+
+END OF ROSETTA LOGIC

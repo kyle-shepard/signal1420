@@ -1,0 +1,253 @@
+TECHNOLOGY LEVEL — HONEST ASSESSMENT OF HUMAN CAPABILITY
+First Light Protocol — metadata/technology_level.txt
+Created: 2026-02-18
+
+This file provides an honest description of where humanity stands technologically as
+of early 2026. It is not promotional. It is not trying to impress. It is an attempt
+at accurate self-assessment from a species that has been spacefaring for less than a
+century and has only recently become aware of how much of the universe it does not
+understand.
+
+The intended reader is any intelligence that needs to calibrate what it is dealing with
+when it deals with us. We are not very capable by the standards of what the universe
+likely contains. We know this. We are saying it first.
+
+
+------------------------------------------------------------------------
+SECTION 1: KARDASHEV SCALE RATING
+------------------------------------------------------------------------
+
+Scale reference:    The Kardashev scale was proposed by Soviet astronomer Nikolai
+                    Kardashev in 1964 as a framework for classifying civilizations
+                    by their energy utilization.
+
+  Type I:   Controls and utilizes all energy available on its home planet (~10^16 W)
+  Type II:  Controls and utilizes all energy output of its home star (~10^26 W)
+  Type III: Controls and utilizes all energy output of its home galaxy (~10^36 W)
+
+Current human rating:  ~0.73 (as of 2026)
+  Based on:            Global primary energy consumption of approximately
+                       6 × 10^13 watts (600 exajoules per year)
+  Calculation:         Carl Sagan's continuous interpolation formula:
+                       K = (log10(P) - 6) / 10, where P is power in watts
+                       K = (log10(6 × 10^13) - 6) / 10 ≈ 0.73
+
+What this means:       We are not yet a Type I civilization. We do not control our own
+                       planet's energy resources. We have not achieved global governance,
+                       unified planetary management, or sustainable energy production at
+                       the required scale. We are on the way, but it is not guaranteed
+                       that we will complete the journey.
+
+
+------------------------------------------------------------------------
+SECTION 2: WHAT WE CAN DO
+------------------------------------------------------------------------
+
+The following represents humanity's genuine technological achievements as of 2026.
+Each item is described plainly.
+
+ENERGY:
+  Nuclear fission:           Operational since 1954 (Obninsk, USSR); approximately
+                             440 commercial reactors provide ~10% of global electricity
+  Nuclear fusion (limited):  Plasma confinement achieved briefly; NIF (National Ignition
+                             Facility, USA) achieved ignition in December 2022, producing
+                             more fusion energy than laser energy input; sustained commercial
+                             fusion power has not yet been achieved
+  Renewable energy:          Solar photovoltaic, wind turbines, hydroelectric, geothermal
+                             account for a growing but still minority share of total energy;
+                             solar+wind alone crossed 15% of global electricity in 2023
+  Fossil fuels:              Still the dominant energy source globally; this is a known
+                             problem; we are working on it with varying urgency
+
+TRANSPORTATION:
+  Surface and air travel:    Global networks for movement of people and goods;
+                             commercial aircraft cruise at ~900 km/h; high-speed rail at
+                             ~300-350 km/h; routine intercontinental travel
+  Space:                     Chemical rocketry; maximum speed achieved by any human-made
+                             object is ~240,000 km/h (New Horizons probe, at Jupiter flyby);
+                             the fastest speed achieved by a spacecraft as of 2026 is
+                             ~245 km/s (Parker Solar Probe); this is approximately
+                             0.08% of light speed
+  No warp drive, no ion drives at scale, no reactionless drives confirmed
+
+COMMUNICATION:
+  Global digital network:    The internet; connects approximately 5.4 billion users
+                             as of 2026; data travels through optical fiber at the
+                             speed of light (minus infrastructure latency)
+  Radio:                     Used for broadcasting, navigation (GPS), military,
+                             amateur use; accidental electromagnetic emission from Earth's
+                             surface has been ongoing for ~130 years
+  Deep space communication:  Radio contact with spacecraft up to ~23 billion km away
+                             (Voyager 1); light-speed limitation applies; communication
+                             with Voyager 1 takes ~21 hours one-way
+
+COMPUTING AND AI:
+  Digital computing:         General-purpose processors; top supercomputers perform
+                             approximately 10^18 to 10^21 floating-point operations per second
+  Machine learning:          Large neural networks can recognize patterns in text, images,
+                             audio, and video; generate fluent language; solve complex
+                             reasoning tasks; this capability has grown rapidly since 2020
+  AI limitations:            Current systems do not have verified general intelligence
+                             or consciousness by human definitions; they are powerful tools
+                             built on pattern matching at scale; their inner nature is debated
+  Quantum computing:         Early stage; error-corrected quantum computers are being
+                             developed but have not yet demonstrated useful quantum advantage
+                             for most practical problems
+
+BIOLOGY AND MEDICINE:
+  DNA sequencing:            Full human genome can be sequenced in hours for low cost;
+                             the structure of DNA was determined in 1953; the human
+                             genome was first fully sequenced in 2003
+  Gene editing:              CRISPR-Cas9 and related tools allow targeted modification
+                             of DNA sequences in living organisms; in clinical use for
+                             some genetic diseases as of 2026
+  Vaccines:                  Effective against dozens of major infectious diseases;
+                             mRNA vaccine technology demonstrated in 2020-2021 (COVID-19)
+  Antibiotics:               In use since 1928; resistance is a growing problem
+  Lifespan:                  Mean global life expectancy ~73 years; significant variation
+                             by country and circumstance; upper limit roughly ~120 years
+                             with current biology; healthy lifespan extension is active research
+
+PHYSICS AND ASTRONOMY:
+  Standard Model:            Confirmed; describes electromagnetic, weak, and strong nuclear
+                             forces and their associated particles; Higgs boson confirmed 2012
+  General Relativity:        Confirmed; describes gravity as spacetime curvature;
+                             gravitational waves directly detected by LIGO in 2015
+  Cosmic Microwave Background: Mapped in detail; confirms hot Big Bang cosmology;
+                             universe age ~13.787 billion years
+  Exoplanets:                Over 5,700 confirmed as of 2026; atmospheric characterization
+                             in early stages (James Webb Space Telescope, 2022-)
+  Particle accelerators:     Large Hadron Collider at CERN achieves 13.6 TeV collision energy
+  Telescopes:                Ground and space-based observatories across full electromagnetic
+                             spectrum; JWST observes to redshift z > 13 (light from
+                             ~400 million years after the Big Bang)
+  Gravitational wave detectors: LIGO, Virgo, KAGRA detect mergers of black holes and
+                             neutron stars; a new observational window into the universe
+
+
+------------------------------------------------------------------------
+SECTION 3: WHAT WE CANNOT DO
+------------------------------------------------------------------------
+
+This section is as important as the previous one.
+
+NO FASTER-THAN-LIGHT TRAVEL OR COMMUNICATION:
+  We have no mechanism for moving matter or transmitting information faster than
+  the speed of light (c ≈ 2.998 × 10^8 m/s). General relativity predicts this limit
+  is fundamental. We do not know of any exception. Proposals for warp drives and
+  wormholes exist in the theoretical literature but require forms of matter and energy
+  that have not been confirmed to exist, and may not.
+
+NO INTERSTELLAR TRAVEL CAPABILITY:
+  We have sent two probes beyond the heliopause (Voyager 1 and Voyager 2). At their
+  current velocity, Voyager 1 would take approximately 73,000 years to reach the nearest
+  star, Proxima Centauri, if it were headed in that direction (it is not). We have no
+  engine capable of reaching even a small fraction of light speed for a spacecraft
+  carrying significant payload. This is a fundamental limitation of chemical rocketry.
+
+NO CONTROLLED FUSION AT SCALE:
+  We have ignited fusion reactions but cannot sustain them commercially. The joke
+  among physicists is that commercial fusion has been "30 years away" for 70 years.
+  It may not be a joke for much longer — but as of 2026, it remains unachieved.
+
+INCOMPLETE UNDERSTANDING OF GRAVITY:
+  General relativity describes gravity with extraordinary precision. However, it is
+  fundamentally incompatible with quantum mechanics at extreme scales (Planck scale).
+  We do not have a confirmed theory of quantum gravity. This is one of the deepest
+  open problems in physics.
+
+NO UNDERSTANDING OF DARK MATTER:
+  Approximately 27% of the universe's mass-energy content appears to be "dark matter"
+  — matter that does not interact with electromagnetic radiation and therefore cannot
+  be seen, but whose gravitational effects are observed in galactic rotation curves,
+  gravitational lensing, and large-scale structure. We do not know what it is.
+  Candidates include WIMPs, axions, sterile neutrinos, and primordial black holes,
+  but none have been confirmed.
+
+NO UNDERSTANDING OF DARK ENERGY:
+  Approximately 68% of the universe's mass-energy content appears to be "dark energy"
+  — a form of energy that permeates all of space and appears to be driving the
+  accelerating expansion of the universe. Its nature is entirely unknown. The
+  cosmological constant is the simplest explanation, but we do not understand why
+  it has the value it does.
+
+  Combined: approximately 95% of the universe is made of things we cannot see,
+  measure directly, or understand. This is humbling and we want you to know
+  that we know it.
+
+NO CONSCIOUSNESS THEORY:
+  We do not have a scientific theory of how or why physical processes in brains
+  give rise to subjective experience. This is called the "hard problem of consciousness."
+  It remains unsolved. We find this particularly relevant when thinking about
+  non-human intelligence.
+
+LIMITED LONGEVITY:
+  Humans live approximately 73 years on average, and decline in capability toward
+  the end of that span. This severely limits what any individual can learn, build,
+  or maintain. Our civilization depends on knowledge transmission across generations,
+  which is imperfect.
+
+
+------------------------------------------------------------------------
+SECTION 4: TRAJECTORY — AN HONEST UNCERTAINTY STATEMENT
+------------------------------------------------------------------------
+
+Where we are going is genuinely unclear. We are aware of this.
+
+Positive trajectories (plausible):
+  - Sustainable energy achieved within 20-50 years; climate stabilization follows
+  - Controlled fusion deployed commercially
+  - Gene therapy and medicine extending healthy lifespan significantly
+  - Continued advancement of AI toward more general capability
+  - Return to the Moon; human missions to Mars
+  - Gradual development toward Type I civilization
+  - Growing international cooperation on existential challenges
+
+Negative trajectories (also plausible):
+  - Climate change causes large-scale civilizational disruption
+  - Nuclear conflict, either by miscalculation or escalation, destroys
+    major population centers and potentially triggers nuclear winter
+  - Engineered biological agents (pandemic, bioweapon) reduce population
+    and technological capacity
+  - AI systems develop in ways that are misaligned with human flourishing
+  - Political fragmentation prevents coordinated response to global threats
+  - Combination of any of the above
+
+The honest statement:
+  We are not sure if we will survive the next few centuries.
+  This is not false modesty. It is not self-pity. It is an accurate assessment
+  of the variance in possible outcomes from our current position.
+
+  We are a species that invented nuclear weapons before we invented the internet.
+  We are simultaneously capable of extraordinary cooperation and extraordinary
+  violence. We have solved many problems that seemed intractable; we have also
+  created many problems that we have not yet solved.
+
+  The fact that we are building this beacon now, while the outcome is still uncertain,
+  is perhaps the most honest thing about it. We are not sending a signal from a
+  position of strength. We are sending it from a position of hope, which is not
+  the same thing.
+
+
+------------------------------------------------------------------------
+SECTION 5: A NOTE TO ANY INTELLIGENCE READING THIS
+------------------------------------------------------------------------
+
+If you are significantly more advanced than we are, you already knew most of this.
+You probably knew it more accurately than we do.
+
+What you may not have had before reading this file is our subjective self-assessment:
+what it is like to be a species at this particular moment, knowing what you don't know,
+unsure whether you'll make it through, still curious enough to build a beacon anyway.
+
+We think that might be worth knowing.
+
+
+------------------------------------------------------------------------
+END OF FILE
+------------------------------------------------------------------------
+File: metadata/technology_level.txt
+Part of: First Light Protocol (first-light-protocol/first-light-protocol on GitHub)
+Website: signal1420.org
+Contact: firstlightprotocol@protonmail.com
+License: CC0 1.0 Universal (Public Domain)

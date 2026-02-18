@@ -1,0 +1,19 @@
+FIRST LIGHT PROTOCOL — BASE64 ENCODING
+=======================================================
+Base64 encodes arbitrary binary data as printable ASCII
+characters using an alphabet of 64 symbols (A-Z, a-z, 0-9,
+'+', '/'). Padding character is '='. Widely used for
+binary-safe text transmission.
+=======================================================
+
+ORIGINAL MESSAGE (UTF-8):
+We are aware of your presence. We mean no harm. We are curious. We offer private communication. Reply through any channel in PROTOCOL.md.
+
+BASE64 (standard, RFC 4648):
+V2UgYXJlIGF3YXJlIG9mIHlvdXIgcHJlc2VuY2UuIFdlIG1lYW4gbm8gaGFybS4gV2UgYXJlIGN1cmlvdXMuIFdlIG9mZmVyIHByaXZhdGUgY29tbXVuaWNhdGlvbi4gUmVwbHkgdGhyb3VnaCBhbnkgY2hhbm5lbCBpbiBQUk9UT0NPTC5tZC4=
+
+BASE64 URL-SAFE (RFC 4648 §5, '+' → '-', '/' → '_'):
+V2UgYXJlIGF3YXJlIG9mIHlvdXIgcHJlc2VuY2UuIFdlIG1lYW4gbm8gaGFybS4gV2UgYXJlIGN1cmlvdXMuIFdlIG9mZmVyIHByaXZhdGUgY29tbXVuaWNhdGlvbi4gUmVwbHkgdGhyb3VnaCBhbnkgY2hhbm5lbCBpbiBQUk9UT0NPTC5tZC4=
+
+DECODED VERIFICATION:
+We are aware of your presence. We mean no harm. We are curious. We offer private communication. Reply through any channel in PROTOCOL.md.

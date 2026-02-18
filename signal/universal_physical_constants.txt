@@ -1,0 +1,74 @@
+FIRST LIGHT PROTOCOL — UNIVERSAL PHYSICAL CONSTANTS
+=================================================================
+Values from the 2022 CODATA recommended values of the
+fundamental physical constants (NIST). These quantities
+are universal — any technological civilization capable of
+measuring them precisely will obtain the same numbers.
+Parenthetical notation: e.g., 6.674 30(15) means the last
+two digits have uncertainty ±15 in the stated units.
+=================================================================
+
+Name        : Speed of Light in Vacuum
+Symbol      : c
+Value       : 299 792 458
+Uncertainty : exact (defined)
+Units       : m s⁻¹
+Source      : SI definition (2019 redefinition of SI)
+Description : The maximum speed at which information or matter can travel. Defines the relationship between space and time in special relativity. Its exact value is now fixed by definition of the metre.
+
+Name        : Planck Constant
+Symbol      : h
+Value       : 6.626 070 15 × 10⁻³⁴
+Uncertainty : exact (defined)
+Units       : J s
+Source      : SI definition (2019 redefinition of SI)
+Description : The fundamental quantum of action. Relates the energy of a photon to its frequency (E = hν). Its exact value is fixed by the 2019 SI redefinition.
+
+Name        : Gravitational Constant
+Symbol      : G
+Value       : 6.674 30(15) × 10⁻¹¹
+Uncertainty : 2.2 × 10⁻⁵ (relative)
+Units       : m³ kg⁻¹ s⁻²
+Source      : CODATA 2022
+Description : The proportionality constant in Newton's law of universal gravitation and Einstein's field equations. The least precisely known fundamental constant — which tells you something about where we are in our understanding of gravity.
+
+Name        : Boltzmann Constant
+Symbol      : k_B
+Value       : 1.380 649 × 10⁻²³
+Uncertainty : exact (defined)
+Units       : J K⁻¹
+Source      : SI definition (2019 redefinition of SI)
+Description : Relates the average kinetic energy of particles in a gas to the thermodynamic temperature of the gas. Links microscopic physics to macroscopic thermodynamics.
+
+Name        : Elementary Charge
+Symbol      : e
+Value       : 1.602 176 634 × 10⁻¹⁹
+Uncertainty : exact (defined)
+Units       : C
+Source      : SI definition (2019 redefinition of SI)
+Description : The electric charge carried by a single proton, or the magnitude of the charge carried by a single electron. The fundamental unit of electric charge.
+
+Name        : Fine-Structure Constant
+Symbol      : α (alpha)
+Value       : 7.297 352 5643(11) × 10⁻³
+Uncertainty : 1.6 × 10⁻¹⁰ (relative)
+Units       : dimensionless
+Source      : CODATA 2022
+Description : The coupling constant for electromagnetic interactions. Approximately 1/137. Dimensionless — its value is independent of any unit system, making it a uniquely universal number. Any civilization with a theory of electromagnetism will recognize it.
+
+Name        : Hydrogen 21-cm Line Frequency
+Symbol      : ν_HI
+Value       : 1 420 405 751.768
+Uncertainty : < 0.001 Hz
+Units       : Hz
+Source      : Essen et al. (1955); confirmed by multiple measurements
+Description : The frequency of the hyperfine transition of neutral hydrogen (the spin-flip transition). The most abundant element in the universe radiates at this frequency. Since Cocconi & Morrison (1959), it has been the primary reference frequency for SETI. This repository is named after it.
+
+Name        : Hydrogen 21-cm Line Wavelength
+Symbol      : λ_HI
+Value       : 21.106 114 054 160
+Uncertainty : < 10⁻¹² m
+Units       : cm
+Source      : Derived from ν_HI and c
+Description : The corresponding wavelength of the hydrogen hyperfine transition. λ = c / ν. The '21-centimetre line' is the basis for this project's domain name: signal1420.org.
+

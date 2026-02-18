@@ -1,0 +1,72 @@
+FIRST LIGHT PROTOCOL — HYDROGEN 21-CM SPECTRAL LINE
+=================================================================
+
+FREQUENCY
+---------
+Value    : 1 420 405 751.768 Hz
+          = 1.420 405 751 768 GHz
+Precision: < 0.001 Hz uncertainty
+
+WAVELENGTH
+----------
+Value    : 21.106 114 054 160 cm
+          = 0.211 061 140 541 60 m
+Derived  : λ = c / ν = 299 792 458 / 1 420 405 751.768
+
+TRANSITION DESCRIPTION
+----------------------
+The 21-cm line arises from the hyperfine transition in the
+ground state of neutral atomic hydrogen (H I). A hydrogen
+atom in its ground state consists of one proton and one
+electron, each with spin-1/2. The two possible configurations
+are:
+
+  PARALLEL spins    (F=1, higher energy) → ANTIPARALLEL spins
+  (F=0, lower energy) + photon at 1420.405751768 MHz
+
+The energy difference: ΔE = hν = 9.411 × 10⁻²⁵ J
+The transition is forbidden (magnetic dipole) with a
+spontaneous emission rate of ~2.9 × 10⁻¹⁵ s⁻¹, giving a
+mean lifetime of ~11 million years — extremely rare for a
+single atom, but observable in the vast interstellar medium.
+
+SIGNIFICANCE IN SETI
+--------------------
+Cocconi, G. & Morrison, P. (1959). 'Searching for
+Interstellar Communications.' Nature, 184, 844-846.
+
+This foundational paper proposed that intelligent
+civilizations attempting contact would naturally converge
+on the hydrogen frequency as a universal reference. Their
+reasoning:
+
+  1. Hydrogen is the most abundant element in the universe.
+  2. Its spectral line is a unique, measurable frequency.
+  3. Any civilization with radio astronomy knows it.
+  4. It requires no shared language or convention to identify.
+
+This project's domain, signal1420.org, is named after it.
+The repository name 'first-light-protocol' refers both to
+first contact and to the hydrogen line as the first light
+of radio astronomy.
+
+PROPOSED RESPONSE FREQUENCIES
+-----------------------------
+By convention, contact attempts often reference multiples
+or mathematical combinations of the hydrogen frequency:
+
+  1 × ν_HI = 1 420 405 751.768 MHz  (the hydrogen line)
+  π × ν_HI = 4 462 336 273.0 MHz    (pi times hydrogen)
+  e × ν_HI = 3 861 771 777.0 MHz    (e times hydrogen)
+  2 × ν_HI = 2 840 811 503.536 MHz  (double hydrogen)
+
+These frequencies are not suggestions for this project
+(which operates entirely through internet channels) but
+are included as mathematical context.
+
+NOTE
+----
+This file is part of the First Light Protocol beacon.
+The inclusion of hydrogen line data is both a mathematical
+handshake and an acknowledgment of the scientific tradition
+of SETI that preceded this project.

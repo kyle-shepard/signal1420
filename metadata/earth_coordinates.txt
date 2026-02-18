@@ -1,0 +1,254 @@
+EARTH COORDINATES AND SOLAR SYSTEM DATA
+First Light Protocol — metadata/earth_coordinates.txt
+Created: 2026-02-18
+
+This file describes the physical location of the sender's home system in terms that
+should be meaningful to any intelligence with knowledge of galactic structure,
+stellar physics, and orbital mechanics. All values use SI units unless otherwise noted.
+This file is self-contained and does not require any other document to interpret.
+
+If you are reading this and need to locate us: we orbit a single G-type main sequence
+star called Sol, in the Orion-Cygnus Arm of the Milky Way galaxy, approximately
+8,200 parsecs from the galactic center. We are third from our star.
+
+
+------------------------------------------------------------------------
+SECTION 1: SOL'S POSITION IN THE GALAXY
+------------------------------------------------------------------------
+
+Galactic coordinates of Sol:
+  Galactic longitude (l):    ~0° is defined as the direction toward the galactic center
+  Galactic latitude (b):     ~+0.07° (approximately on the galactic plane)
+  Distance from galactic center: ~8,178 parsecs (8.178 kpc), or approximately 26,670 light-years
+  Height above galactic plane:   ~20 parsecs (approximately 65 light-years north of midplane)
+  Galactic arm:              Orion-Cygnus Arm (a minor spur of the Sagittarius Arm)
+  Orbital period around galaxy:  ~225 to 250 million years (one "galactic year")
+  Current velocity around galaxy: ~220 km/s
+
+Equatorial coordinates of the galactic center as seen from Earth (J2000 epoch):
+  Right Ascension (RA):      17h 45m 40.0s
+  Declination (Dec):         -29° 00' 28"
+  (These are the coordinates of Sagittarius A*, the galactic center supermassive black hole,
+  as seen from Earth. Any intelligence with a model of our galaxy can use this to locate Sol.)
+
+Sun's position in equatorial coordinates (J2000 epoch):
+  Sol is located in the direction opposite to Sagittarius A* from Earth's perspective.
+  The anti-galactic-center direction: RA 05h 45m 40.0s, Dec +29° 00' 28"
+
+
+------------------------------------------------------------------------
+SECTION 2: EARTH'S ORBITAL PARAMETERS
+------------------------------------------------------------------------
+
+Parent star designation:     Sol (also: Sun, HD 1, HIP not assigned — it is the origin)
+Parent star type:            G2V main sequence star
+Parent star mass:            1.989 × 10^30 kg
+Parent star luminosity:      3.828 × 10^26 W
+Parent star age:             ~4.603 billion years
+Parent star surface temperature: ~5,778 K
+
+Earth's orbital parameters:
+  Semi-major axis (a):       1.000 AU = 149,597,870.7 km = 1.496 × 10^11 m
+  Orbital eccentricity (e):  0.0167086
+  Orbital inclination:       0° (reference plane; ecliptic is defined by Earth's orbit)
+  Orbital period (sidereal): 365.25636 days = 31,558,149.54 seconds
+  Orbital period (tropical): 365.24219 days
+  Orbital velocity (mean):   29.783 km/s
+  Axial tilt (obliquity):    23.439° (currently decreasing slowly)
+  Rotation period (sidereal): 23 hours, 56 minutes, 4.091 seconds
+  Rotation period (solar):   24 hours (mean solar day)
+  Mass:                      5.972 × 10^24 kg
+  Radius (equatorial):       6,378.137 km
+  Radius (polar):            6,356.752 km
+  Surface gravity:           9.807 m/s^2
+  Escape velocity:           11.186 km/s
+  Distance from Sol (mean):  149,597,870.7 km
+  Distance from Sol (min, perihelion): 147,098,291 km (reached approximately January 3)
+  Distance from Sol (max, aphelion):   152,097,459 km (reached approximately July 4)
+
+Moon (Luna):
+  Semi-major axis:           384,400 km
+  Orbital period:            27.322 days (sidereal)
+  Mass:                      7.342 × 10^22 kg
+  Radius:                    1,737.4 km
+  The Moon is unusually large relative to its parent planet — mass ratio ~1:81.
+  This is notable; it may have contributed to the stability of Earth's axial tilt.
+
+
+------------------------------------------------------------------------
+SECTION 3: EARTH'S ATMOSPHERE COMPOSITION
+------------------------------------------------------------------------
+
+Total atmospheric mass:      5.15 × 10^18 kg
+Surface pressure:            101,325 Pa (1 atm)
+Mean surface temperature:    ~288 K (15°C)
+
+Composition by volume (dry air):
+  Nitrogen (N2):             78.084%
+  Oxygen (O2):               20.946%
+  Argon (Ar):                0.9340%
+  Carbon dioxide (CO2):      ~0.0421% (421 ppm; increasing due to industrial activity)
+  Neon (Ne):                 0.001818%
+  Helium (He):               0.000524%
+  Methane (CH4):             ~0.00019% (1.9 ppm; increasing)
+  Krypton (Kr):              0.000114%
+  Hydrogen (H2):             0.000055%
+  Water vapor (H2O):         Highly variable, 0.001% to 5% depending on location and season
+
+The simultaneous presence of oxygen and methane in this atmosphere is a disequilibrium
+condition. These gases react chemically and should not coexist without constant replenishment.
+Their coexistence is consistent with active biological processes producing both gases.
+This may be a useful biosignature for external observers.
+
+
+------------------------------------------------------------------------
+SECTION 4: THE SOLAR SYSTEM — ALL EIGHT PLANETS
+------------------------------------------------------------------------
+
+The Sun is orbited by eight major planets (in order of distance from Sol).
+All orbital periods are sidereal. All distances are in AU.
+
+1. MERCURY
+   Semi-major axis:   0.387 AU (57,909,050 km)
+   Orbital period:    87.969 days
+   Eccentricity:      0.2056 (highly elliptical)
+   Mass:              3.301 × 10^23 kg (0.0553 Earth masses)
+   Radius:            2,439.7 km
+   Moons:             0
+   Notable:           Tidally resonant with Sun; thin exosphere; heavily cratered
+
+2. VENUS
+   Semi-major axis:   0.723 AU (108,209,475 km)
+   Orbital period:    224.701 days
+   Eccentricity:      0.0068
+   Mass:              4.867 × 10^24 kg (0.815 Earth masses)
+   Radius:            6,051.8 km
+   Moons:             0
+   Notable:           Dense CO2 atmosphere (93 atm); surface temperature ~737 K;
+                      retrograde rotation; runaway greenhouse effect
+
+3. EARTH (sender's location)
+   Semi-major axis:   1.000 AU (149,597,870 km)
+   Orbital period:    365.256 days
+   Eccentricity:      0.0167
+   Mass:              5.972 × 10^24 kg (1.000 Earth masses, by definition)
+   Radius:            6,371 km (mean)
+   Moons:             1 (Luna)
+   Notable:           Only confirmed life-bearing world; 71% surface liquid water;
+                      active plate tectonics; oxygen-rich atmosphere; biosphere
+
+4. MARS
+   Semi-major axis:   1.524 AU (227,939,200 km)
+   Orbital period:    686.971 days (1.881 Earth years)
+   Eccentricity:      0.0935
+   Mass:              6.390 × 10^23 kg (0.107 Earth masses)
+   Radius:            3,389.5 km
+   Moons:             2 (Phobos, Deimos)
+   Notable:           Thin CO2 atmosphere; evidence of past liquid water;
+                      largest known volcano (Olympus Mons, 21 km high);
+                      currently explored by robotic spacecraft
+
+5. JUPITER
+   Semi-major axis:   5.204 AU (778,479,000 km)
+   Orbital period:    4,332.59 days (11.862 Earth years)
+   Eccentricity:      0.0489
+   Mass:              1.898 × 10^27 kg (317.8 Earth masses)
+   Radius:            71,492 km (equatorial)
+   Moons:             95 confirmed (largest: Io, Europa, Ganymede, Callisto)
+   Notable:           Gas giant; largest planet; Great Red Spot (persistent storm);
+                      strong magnetic field; Europa may have subsurface liquid water ocean
+
+6. SATURN
+   Semi-major axis:   9.583 AU (1,432,041,000 km)
+   Orbital period:    10,759.22 days (29.457 Earth years)
+   Eccentricity:      0.0565
+   Mass:              5.683 × 10^26 kg (95.2 Earth masses)
+   Radius:            60,268 km (equatorial)
+   Moons:             146 confirmed (largest: Titan, Enceladus)
+   Notable:           Prominent ring system (water ice and rock); mean density less
+                      than water (0.687 g/cm^3); Titan has thick nitrogen atmosphere
+                      and liquid methane lakes; Enceladus has active water geysers
+
+7. URANUS
+   Semi-major axis:   19.191 AU (2,870,658,000 km)
+   Orbital period:    30,589 days (83.747 Earth years)
+   Eccentricity:      0.0463
+   Mass:              8.681 × 10^25 kg (14.5 Earth masses)
+   Radius:            25,559 km (equatorial)
+   Moons:             28 confirmed (largest: Titania, Oberon, Umbriel, Ariel, Miranda)
+   Notable:           Ice giant; extreme axial tilt of 97.77° (essentially orbits on its side);
+                      faint ring system; magnetic pole significantly offset from rotational pole
+
+8. NEPTUNE
+   Semi-major axis:   30.070 AU (4,495,060,000 km)
+   Orbital period:    60,182 days (164.79 Earth years)
+   Eccentricity:      0.0097
+   Mass:              1.024 × 10^26 kg (17.1 Earth masses)
+   Radius:            24,764 km (equatorial)
+   Moons:             16 confirmed (largest: Triton — retrograde orbit, likely captured)
+   Notable:           Ice giant; strongest mean winds in the solar system (~2,100 km/h);
+                      Triton's retrograde orbit suggests it was captured from the
+                      Kuiper Belt rather than forming in situ
+
+Additional solar system bodies:
+   Dwarf planets include Pluto, Eris, Makemake, Haumea, and Ceres (at minimum).
+   The Kuiper Belt extends from ~30 to 50 AU.
+   The Oort Cloud is hypothesized to extend from ~2,000 to 100,000 AU.
+   Two robotic probes (Voyager 1 and Voyager 2) have crossed the heliopause
+   and are currently in interstellar space.
+
+
+------------------------------------------------------------------------
+SECTION 5: KNOWN INTERSTELLAR VISITORS
+------------------------------------------------------------------------
+
+Three objects of confirmed interstellar origin have been observed transiting the solar system.
+These are the only confirmed objects we know to have originated outside this stellar system.
+
+1I/'OUMUAMUA (2017)
+   Designation:       1I/2017 U1 ('Oumuamua)
+   Discovery date:    October 19, 2017
+   Discovered by:     Robert Weryk, Pan-STARRS telescope, Haleakala, Hawaii
+   Origin direction:  Near the direction of Vega (Lyra constellation)
+   Closest approach:  0.255 AU from Sol (September 9, 2017, before discovery)
+   Characteristics:   Elongated tumbling object (estimated 10:1 aspect ratio);
+                      non-gravitational acceleration beyond solar radiation pressure
+                      (the cause of this acceleration remains unexplained);
+                      no observable cometary activity; reddish surface spectrum;
+                      estimated dimensions: ~100-400 m × ~35-167 m
+   Status:            Departed solar system; no longer observable
+
+2I/BORISOV (2019)
+   Designation:       2I/Borisov
+   Discovery date:    August 30, 2019
+   Discovered by:     Gennady Borisov, MARGO observatory, Crimea
+   Origin direction:  Constellation Cassiopeia (hyperbolic trajectory from ~45°
+                      above the ecliptic plane)
+   Closest approach:  1.937 AU from Sol (December 8, 2019)
+   Characteristics:   Active comet with coma and tail; cyanide (CN) and carbon monoxide
+                      (CO) emission detected; composition broadly similar to solar system
+                      comets but CO-rich; mass estimated ~100 million tons
+   Status:            Departed solar system
+
+3I/ATLAS (2025)
+   Designation:       3I/2025 N1 (ATLAS)
+   Discovery date:    July 1, 2025
+   Discovered by:     ATLAS survey (Asteroid Terrestrial-impact Last Alert System)
+   Characteristics:   Third confirmed interstellar object; details still under analysis
+                      as of the creation date of this file (February 2026)
+   Status:            Transit / departed
+
+We mention these visitors because they represent our only confirmed physical contact
+with material that originated outside our solar system. We do not know their origin,
+their nature, or whether they carry information about their source environments.
+We found them interesting. We are still thinking about 'Oumuamua.
+
+
+------------------------------------------------------------------------
+END OF FILE
+------------------------------------------------------------------------
+File: metadata/earth_coordinates.txt
+Part of: First Light Protocol (first-light-protocol/first-light-protocol on GitHub)
+Website: signal1420.org
+Contact: firstlightprotocol@protonmail.com
+License: CC0 1.0 Universal (Public Domain)

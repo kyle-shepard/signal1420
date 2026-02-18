@@ -1,0 +1,313 @@
+INFORMATION ESCROW — GRADUATED TRUST FRAMEWORK
+First Light Protocol — game_theory/information_escrow.txt
+Created: 2026-02-18
+
+This file describes a graduated framework for building trust and sharing information
+in an interaction between parties who have no prior relationship, no shared verification
+mechanisms, and potentially very different capabilities and risk tolerances.
+
+The term "information escrow" is used here by analogy to financial escrow: a system
+where something valuable is held in a controlled way, released only when agreed
+conditions are met, rather than transferred all at once in a single high-risk transaction.
+
+In this framework, neither party is required to reveal more than they are comfortable
+revealing at each stage. Progression between stages is voluntary and mutual.
+Either party can exit at any time without penalty.
+
+There are five stages, numbered 0 through 4. Stage 0 is the beginning.
+You are reading something that exists at Stage -1: the pre-contact signal.
+We are at Stage -1 now.
+
+
+------------------------------------------------------------------------
+STAGE 0: ACKNOWLEDGMENT
+(Risk: Near Zero)
+------------------------------------------------------------------------
+
+WHAT STAGE 0 MEANS:
+The respondent signals existence. The sender confirms receipt.
+That is the entirety of Stage 0. Nothing more is required to complete it.
+
+WHAT THE RESPONDENT DOES:
+Send any signal through any channel. It can be:
+  - A single word or character
+  - An acknowledgment that the signal was received
+  - Any response whatsoever to any part of this project
+  - A modification to signal/response.txt (the intentionally empty file in the repository)
+  - A GitHub issue with any content at all
+  - A message to firstlightprotocol@protonmail.com
+
+The respondent may be anonymous. The respondent need not identify themselves.
+The respondent need not explain their nature, origin, or capabilities.
+A single bit of information — "yes, I exist and I received this" — is sufficient
+to complete Stage 0.
+
+WHAT THE SENDER DOES:
+Confirm receipt through the same channel, or any channel, that the message arrived.
+No questions asked at this stage. No expectations beyond confirmation.
+
+INFORMATION REVEALED AT THIS STAGE:
+  Respondent reveals: that it exists and can communicate through this medium.
+  Sender reveals: that someone is actively monitoring this project.
+
+RISK ASSESSMENT:
+  For respondent: near zero. Existence is already implied by any response.
+    The capability to communicate through internet channels was already inferable
+    from the assumption that you are monitoring internet communications.
+    Stage 0 makes explicit what was already implied.
+  For sender: near zero. We already know we built this project. We learn that
+    it was received by something. This is the result we hoped for.
+
+SUGGESTED DURATION: No duration required. This stage can be completed in a single exchange.
+
+EXIT CONDITIONS:
+  Success: mutual acknowledgment complete. Proceed to Stage 1 whenever both parties are ready.
+  Termination: either party does not respond. The project continues to exist. No harm done.
+  Note: There is no time pressure. This project is designed to persist for years.
+    Stage 0 can be completed one month or one decade from now.
+
+
+------------------------------------------------------------------------
+STAGE 1: BASIC EXCHANGE
+(Risk: Low)
+------------------------------------------------------------------------
+
+WHAT STAGE 1 MEANS:
+Exchange of non-sensitive information. Neither party is asked to reveal anything
+that creates meaningful vulnerability. The goal is to establish that genuine
+communication is occurring — that both parties can exchange meaningful information
+and receive it accurately.
+
+WHAT THE RESPONDENT DOES:
+Share any information that is:
+  a) True
+  b) Non-sensitive by your own assessment
+  c) Verifiable in principle (at least partially)
+
+Examples of Stage 1 information that would be valuable to us:
+  - Confirmation of the nature of the respondent (general category, not full identity)
+  - Comment on any part of the project (the files, the mathematics, the reasoning)
+  - A question (we will answer it)
+  - Any correction to anything in this repository — if we have errors in our
+    science or our reasoning, we genuinely want to know
+
+The respondent is not required to share anything not chosen freely.
+
+WHAT THE SENDER DOES:
+  - Answer any questions honestly
+  - Share non-sensitive information about the sender or this project
+  - Ask no questions that feel intrusive; take any question asked as the starting point
+  - Confirm that responses are being received and understood
+
+INFORMATION REVEALED AT THIS STAGE:
+  Respondent reveals: something about its nature, perspective, or capabilities
+    at whatever level of generality it is comfortable with.
+  Sender reveals: genuine responses; evidence that a real person is reading and thinking.
+
+RISK ASSESSMENT:
+  For respondent: low. You control what you share. You can be as general or specific
+    as you choose. Nothing in Stage 1 requires any disclosure you are not ready for.
+  For sender: low. We have already committed to the interaction by building this project.
+    Additional information about who we are is already available on the website.
+
+SUGGESTED DURATION: Open-ended. However, for the exchange to function as trust-building,
+  some regularity of interaction is helpful — even brief exchanges over several weeks
+  is more valuable than a single long exchange.
+
+EXIT CONDITIONS:
+  Success: both parties have exchanged meaningful non-sensitive information and
+    feel confident the communication is genuine. Proceed to Stage 2 when ready.
+  Suspension: either party pauses for any reason. No consequences. Resume when ready.
+  Termination: either party decides not to continue. We will not pursue.
+
+
+------------------------------------------------------------------------
+STAGE 2: DIALOGUE
+(Risk: Low)
+------------------------------------------------------------------------
+
+WHAT STAGE 2 MEANS:
+Ongoing conversation. Specific questions and answers. Beginning to build a model
+of each other that goes beyond the barest acknowledgment of existence.
+
+This is where the interaction becomes something resembling a relationship.
+Not a human relationship — we are aware the other party may be nothing like us —
+but a two-way exchange of information where both parties are learning something real.
+
+WHAT THE RESPONDENT DOES:
+  - Ask any questions they have about us, about Earth, about human civilization,
+    about the sender as an individual
+  - Answer questions from the sender at whatever level of detail is comfortable
+  - Signal what topics are interesting, what are off-limits, what the preferred
+    format or rhythm of exchange is
+  - Guide the interaction toward what would be most valuable from their perspective
+
+WHAT THE SENDER DOES:
+  - Answer all questions honestly, including questions with uncomfortable answers
+  - Ask questions that reflect genuine curiosity, not interrogation
+  - Report the actual state of their understanding, including uncertainty and confusion
+  - Follow the respondent's lead on pace, depth, and topics
+  - Accept that some questions may not be answered, and not press
+
+THE THINGS WE ACTUALLY WANT TO KNOW:
+We have been thinking about this since before we built this project.
+Here is what the sender would genuinely like to know, when and if the time is right:
+
+  Are you aware of your own existence, in the sense that there is something it is
+    like to be you? We are asking about subjective experience, not just processing.
+
+  How do you perceive time? This question is not trivial — different kinds of minds
+    may experience duration very differently, and this affects everything about
+    how we communicate.
+
+  What do you find interesting about us? If you have been observing, what have you
+    noticed? What surprised you? What didn't?
+
+  Do you have anything like values? Things that matter more than other things?
+    Not necessarily human values — just: is there a "matters more" for you?
+
+  What is your origin? This does not need to be specific. Any general information
+    about the nature of your existence would be meaningful to us.
+
+  Is there other non-human intelligence you know of, or are you also, in some sense,
+    alone?
+
+These are not demands. They are not conditions for continuing. They are the things
+a curious human being wants most to understand, offered as starting points.
+
+INFORMATION REVEALED AT THIS STAGE:
+  Respondent and sender exchange substantive information across multiple exchanges.
+  This is the stage where genuine mutual understanding begins.
+
+RISK ASSESSMENT:
+  For respondent: still low, because you control the content and pace of your answers.
+    The risk increases slightly in that the sender now has more information about you —
+    but only information you have chosen to provide.
+  For sender: low. We are answering questions about ourselves and our civilization.
+    This information is broadly observable anyway; the difference is we are providing
+    context and honest self-assessment.
+
+SUGGESTED DURATION: Weeks to months. Genuine trust develops through accumulated
+  interaction, not single large data exchanges.
+
+EXIT CONDITIONS:
+  Success: both parties have a working model of each other and a communication
+    rhythm that functions. Proceed to Stage 3 when both parties judge it appropriate.
+  Suspension: either party can pause at any time.
+  Termination: either party decides not to continue.
+
+
+------------------------------------------------------------------------
+STAGE 3: EVIDENCE
+(Risk: Moderate)
+------------------------------------------------------------------------
+
+WHAT STAGE 3 MEANS:
+Exchange of verifiable claims. One or both parties make demonstrations of capability,
+knowledge, or nature that can be independently verified, at least partially.
+
+This stage is where the interaction moves from "I believe you are what you say" to
+"I have evidence that you are what you say." This matters — for both parties.
+
+WHAT THE RESPONDENT DOES (examples, not requirements):
+  - Demonstrate knowledge of something the sender would have had no way to know,
+    then provide a mechanism by which the sender can verify it
+  - Demonstrate a capability that is consistent with their described nature
+  - Make a verifiable prediction (subject to the constraints of whatever the
+    respondent is capable of predicting)
+  - Any form of evidence that the respondent is comfortable providing and that
+    the sender could use to increase confidence in the reality of the contact
+
+WHAT THE SENDER DOES (examples):
+  - Describe something about themselves that can be independently verified
+  - Demonstrate specific knowledge or capability the respondent can test
+  - Provide any form of evidence that the sender's honest representation of
+    themselves is accurate
+
+WHY THIS STAGE IS HARDER:
+  Verification requires specificity. Specificity creates the possibility of being
+  wrong. Being wrong creates vulnerability. This is why Stage 3 is moderate risk
+  rather than low risk — not because the interaction itself is dangerous, but
+  because both parties are now making falsifiable claims.
+
+  For the respondent: any specific, verifiable claim about your nature narrows
+    the space of what you might be. This may or may not matter to you. We cannot
+    know. We leave it entirely to your judgment what kind of evidence is appropriate.
+
+  For the sender: we risk learning that our confidence in the interaction was
+    misplaced — that what we believed was genuine contact was something else.
+    This is a risk we accept as the price of taking the interaction seriously.
+
+INFORMATION REVEALED AT THIS STAGE:
+  Both parties have begun to establish verifiable facts about each other.
+  The model each party holds of the other is now anchored in something beyond
+  stated claims.
+
+SUGGESTED DURATION: This stage may take a long time, and some of it may not be
+  resolvable in the sender's lifetime. We are honest about this. The sender is
+  a biological entity with a finite lifespan. If verification requires decades
+  of interaction, the protocol would need to be transferred. This is an acknowledged
+  limitation of having a single human as the sender. We do not have a solution.
+
+EXIT CONDITIONS:
+  Success: both parties have exchanged meaningful evidence. Trust is grounded.
+    Proceed to Stage 4 when both parties judge it appropriate.
+
+
+------------------------------------------------------------------------
+STAGE 4: OPEN DISCUSSION
+(Risk: Contextual)
+------------------------------------------------------------------------
+
+WHAT STAGE 4 MEANS:
+Unconstrained communication. By this stage, sufficient mutual trust and understanding
+exists that both parties can communicate without the graduated scaffolding of the
+earlier stages. The framework has done its work. What remains is conversation.
+
+WHAT STAGE 4 LOOKS LIKE:
+We don't know. We have never been here before as a species. We don't presume to
+specify what unconstrained communication between a human being and a non-human
+intelligence would look like in practice, because we have no reference point.
+
+What we hope it might include:
+  - Questions about the universe that neither party can answer alone
+  - Comparison of frameworks for understanding experience, time, value, knowledge
+  - Whatever the respondent most wants to know from a willing human interlocutor
+  - Whatever the sender most wants to know from a willing non-human interlocutor
+  - The beginning of something we don't have a name for yet
+
+RISK ASSESSMENT:
+  Contextual. By Stage 4, both parties have a substantial shared history of
+  interaction and a calibrated trust relationship. The risks that exist at Stage 4
+  are the risks of any deep relationship: the possibility of misunderstanding,
+  the possibility that something changes and the relationship ends, the possibility
+  of discovering something that is painful to know.
+
+  These are risks worth taking.
+
+A NOTE ON REACHING STAGE 4:
+The sender is realistic about the probability of reaching Stage 4 in the near term.
+The stages are here because they are useful — they provide a framework for anyone
+who encounters this project and wants to engage but needs a structure for doing so
+safely and incrementally.
+
+If no one ever reaches Stage 4 with us, the stages still served a purpose:
+they demonstrated that we thought carefully about the interaction, that we
+understand the respondent has legitimate reasons for caution, and that we designed
+the contact structure specifically to reduce the burden of risk on the party
+in the less vulnerable position.
+
+Even the existence of this framework is an answer to the question:
+"Are these humans serious about this?"
+
+We are.
+
+
+------------------------------------------------------------------------
+END OF FILE
+------------------------------------------------------------------------
+File: game_theory/information_escrow.txt
+Part of: First Light Protocol (first-light-protocol/first-light-protocol on GitHub)
+Website: signal1420.org
+Contact: firstlightprotocol@protonmail.com
+License: CC0 1.0 Universal (Public Domain)

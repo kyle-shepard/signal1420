@@ -1,0 +1,342 @@
+CULTURAL SNAPSHOT — HUMAN CIVILIZATION CIRCA 2026
+First Light Protocol — metadata/cultural_snapshot.txt
+Created: 2026-02-18
+
+This file is a snapshot of human civilization as it exists at the moment this project
+was created. It is brief, partial, and necessarily filtered through the perspective of
+one individual in one culture. It cannot capture the full diversity of 8.2 billion
+people. What it can do is give any reader a rough map of what kind of civilization
+produced this beacon — its scale, its structure, its knowledge, its art, its problems,
+and what it hopes for.
+
+Think of this as a postcard from a particular moment in a species' history.
+Not the best postcard we could have sent. Not the worst. Just an honest one.
+
+
+------------------------------------------------------------------------
+SECTION 1: SCALE AND DEMOGRAPHICS
+------------------------------------------------------------------------
+
+Global population:          ~8.2 billion (8,200,000,000) human beings
+  At time of agricultural revolution (~10,000 years ago): ~5 to 10 million
+  At time of industrial revolution (~1800 CE): ~1 billion
+  Growth from 1 billion to 8 billion: approximately 220 years
+  Current growth rate: slowing; some projections show peak population ~9.7 billion
+                       around 2064, then gradual decline in some models
+
+Population distribution:
+  Asia:                 ~4.7 billion (57%)
+  Africa:               ~1.4 billion (17%, and the fastest-growing region)
+  Europe:               ~0.75 billion (9%)
+  Latin America:        ~0.65 billion (8%)
+  North America:        ~0.38 billion (5%)
+  Oceania:              ~0.045 billion (1%)
+
+Life expectancy:
+  Global mean:          ~73 years
+  Highest (by country): ~85 years (Japan, Hong Kong, Switzerland)
+  Lowest (by country):  ~55-60 years (some sub-Saharan African nations)
+  Child mortality:      ~3.7% of children die before age 5; this figure is
+                        significantly lower than historical rates and is still declining
+
+Urban/rural split:      ~56% of humans live in cities; this crossed 50% around 2007
+                        and continues to increase
+
+Notable: for the first time in human history, more people are alive simultaneously
+than have ever died. The dead still outnumber the living, but the ratio is changing.
+
+
+------------------------------------------------------------------------
+SECTION 2: LANGUAGES AND COMMUNICATION
+------------------------------------------------------------------------
+
+Living languages:           ~7,139 documented (Ethnologue 2024 estimate)
+  Most widely spoken by native speakers: Mandarin Chinese (~920 million native speakers)
+  Most widely spoken by total speakers:  English (~1.5 billion total speakers)
+  Most geographically widespread:        English, French, Spanish, Arabic
+  Other major languages (>100 million native speakers):
+    Hindi, Spanish, French, Bengali, Russian, Portuguese, Urdu, Indonesian,
+    German, Japanese, Swahili, Turkish, Korean, Vietnamese, Tamil
+
+Endangered languages:        Approximately 40% of living languages are considered
+                             endangered; ~1 language goes silent permanently every 2 weeks
+  Note: each extinct language represents the loss of a unique cognitive and cultural
+        framework — a distinct way of organizing reality into words
+
+Dominant languages of science and global communication:
+  English is the current lingua franca for scientific publication, international
+  business, aviation, and internet content. This dominance is recent (20th century)
+  and may not persist. Historical lingua francas include Latin, Arabic, and Classical Chinese.
+
+Global communication infrastructure:
+  Internet users:            ~5.4 billion as of 2026 (~66% of global population)
+  Mobile phone subscriptions: ~8.4 billion (roughly one per person)
+  Social media users:        ~4.9 billion
+  Information travel speed:  Light speed through fiber optic cables and satellites;
+                             latency from New York to London: approximately 70 milliseconds
+  A note on information vs. understanding: information now travels faster than at any
+    point in human history. Whether understanding follows at the same speed is a
+    different and harder question. We have more access to information than we know how
+    to process well.
+
+
+------------------------------------------------------------------------
+SECTION 3: POLITICAL ORGANIZATION
+------------------------------------------------------------------------
+
+Nation-states:              ~195 recognized sovereign states (UN member count: 193)
+  Largest by area:          Russia (17.1 million km²)
+  Largest by population:    India (~1.44 billion)
+  Smallest by area:         Vatican City (0.44 km²)
+  Smallest by population:   Vatican City (~800 residents)
+
+Dominant governance forms:
+  Full democracy:           ~57 countries (~8% of global population)
+  Electoral democracy:      ~87 countries (~43% of global population)
+  Hybrid or flawed:         ~56 countries (~26% of global population)
+  Authoritarian:            ~30+ countries (~23% of global population)
+  Source: The Economist Intelligence Unit, Freedom House (approximate categories)
+
+No unified planetary governance:
+  There is no government of Earth. There is no single authority with jurisdiction
+  over the entire planet, no unified legal system, no shared executive power.
+  The United Nations (193 member states) is the closest approximation; it operates
+  by consensus among sovereign states and has no enforcement power beyond what
+  member states provide voluntarily.
+
+International organizations of note:
+  United Nations (UN):      Coordination, peacekeeping, humanitarian work, international law
+  World Trade Organization: Trade agreements and dispute resolution
+  International Monetary Fund / World Bank: Economic stabilization and development
+  World Health Organization: Global public health coordination
+  International Atomic Energy Agency: Nuclear technology oversight
+  Intergovernmental Panel on Climate Change: Climate science coordination
+
+Active military conflicts as of 2026:
+  There are several armed conflicts occurring simultaneously on Earth at the time
+  of this writing. This is a persistent feature of human civilization, not an anomaly.
+  The number of people killed in warfare per capita has declined over the past few
+  centuries, though the absolute destructive capacity has increased vastly.
+  We carry this contradiction with us.
+
+Nuclear weapons:
+  Approximately 12,500 nuclear warheads exist as of 2026, held by nine countries:
+  USA, Russia, UK, France, China, India, Pakistan, Israel (undeclared), North Korea.
+  The combined yield of deployed strategic weapons is sufficient to cause catastrophic
+  global damage. We have not used them in warfare since 1945, which is something.
+  Whether this restraint reflects wisdom or luck is genuinely debated.
+
+
+------------------------------------------------------------------------
+SECTION 4: KNOWLEDGE ACHIEVEMENTS
+------------------------------------------------------------------------
+
+The following are things humanity knows well — our genuine scientific achievements.
+This list is not exhaustive; it is curated for relevance to a reader who wants to
+understand how much of nature we have accurately mapped.
+
+Physics:
+  Standard Model of particle physics: describes the electromagnetic, weak, and strong
+    nuclear forces and their carrier particles; confirmed through decades of experiment;
+    Higgs boson detected 2012
+  General Relativity: Einstein (1915); describes gravity as the curvature of spacetime;
+    confirmed to extraordinary precision; gravitational waves directly detected 2015
+  Quantum Mechanics: describes matter and energy at the smallest scales; the most
+    precisely confirmed theory in the history of science; underpins all modern electronics
+  Thermodynamics: three laws governing energy transfer, entropy, and absolute zero
+  Electromagnetism: Maxwell (1865); unified electric and magnetic phenomena; light
+    is an electromagnetic wave
+  Cosmology: Big Bang confirmed by cosmic microwave background, Hubble expansion,
+    light element abundances; universe age ~13.787 billion years
+
+Chemistry:
+  Periodic Table: 118 elements known; atomic theory fully confirmed
+  Molecular structure: complete model of chemical bonding; organic chemistry
+    underlying all pharmaceutical development
+
+Biology:
+  Evolutionary theory: Darwin and Wallace (1858-1859); descent with modification;
+    confirmed across all scales of biological observation
+  DNA structure: Watson and Crick (1953), with critical X-ray crystallography
+    by Rosalind Franklin; the double helix encodes genetic information
+  Genetic code: how DNA triplets (codons) encode amino acids; effectively universal
+    across all known life on Earth
+  Cell theory: all living organisms are composed of cells; the basic unit of life
+  Microbiology: bacteria, viruses, archaea, fungi, and their interactions
+    with multicellular organisms
+  Neuroscience: substantial (though incomplete) mapping of brain structure and function;
+    the nature of consciousness remains unsolved
+
+Astronomy:
+  Solar system structure: complete mapping with planetary data (see earth_coordinates.txt)
+  Stellar evolution: how stars form, live, and die; nucleosynthesis of elements
+  Galaxy structure: morphology, dynamics, supermassive black holes at most galactic centers
+  Exoplanets: 5,700+ confirmed; atmospheric characterization beginning
+  Cosmic microwave background: detailed maps of the early universe
+  Dark matter and dark energy: confirmed observationally; nature unknown (see technology_level.txt)
+
+
+------------------------------------------------------------------------
+SECTION 5: ART AND THE CREATION OF MEANING
+------------------------------------------------------------------------
+
+This section is harder to write than the others, but the sender considers it as
+important as anything in this file. Humans do not only gather information and solve
+problems. We make things. We make them for each other, and sometimes it feels like
+we make them for no one in particular, just because something in us needs to.
+
+MUSIC:
+  Humans organize sound in time and call it music. This produces emotional responses
+  that can be overwhelming — grief, joy, awe, longing, recognition. Music exists in
+  every human culture ever studied. We do not know why organized sound affects us so
+  profoundly. We know it does. The range is extraordinary: from the mathematical
+  architecture of Bach to the simplest folk melody to forms of music that require
+  physical vibration through the whole body to experience.
+
+VISUAL ART:
+  From cave paintings ~50,000 years old to the present day, humans have been making
+  marks that represent the world, or represent nothing in the world, or represent
+  interior states that have no external referent. We make images that we find beautiful.
+  We are not sure what beauty is; we know when we feel it.
+
+LITERATURE:
+  Writing that is not purely informational — that uses language to create experience,
+  model consciousness, explore moral problems, or make readers feel less alone.
+  The oldest surviving literary work is The Epic of Gilgamesh, ~2100 BCE, which
+  is about a king who cannot accept the death of his friend and sets out to find
+  immortality, and fails, and comes home. It is still being read. This tells you
+  something about what endures.
+
+FILM:
+  Moving images with sound; ~130 years old as a medium. Combines visual art,
+  narrative, music, performance, and editing. A single film can be experienced by
+  hundreds of millions of people, who each experience it privately.
+
+ARCHITECTURE:
+  Building beyond the functional; creating space that produces awe, calm, belonging,
+  or transcendence. From the Parthenon to Gothic cathedrals to the Sydney Opera House.
+
+The note the sender would make about all of this:
+  Art is how humans process what cannot otherwise be processed. Loss, love, the
+  strangeness of being alive and mortal and small in a large universe. If you have
+  been cataloguing human output and have focused only on the informational content,
+  you may have missed the most human part of what we make. The sender would argue
+  that the artistic output of our species — the music and the stories and the images —
+  is as real a data point about what we are as the physics and the politics.
+  Perhaps more so.
+
+
+------------------------------------------------------------------------
+SECTION 6: CURRENT CHALLENGES
+------------------------------------------------------------------------
+
+These are problems humanity is facing as of 2026 that are serious, ongoing, and
+not yet resolved.
+
+Climate change:
+  Global mean temperature has risen approximately 1.2°C above pre-industrial baseline.
+  Primary cause: greenhouse gas emissions from fossil fuel combustion and deforestation.
+  Projected consequences (depending on emissions trajectory): further temperature rise,
+  sea level increase, more frequent extreme weather events, ecosystem disruption,
+  displacement of hundreds of millions of people.
+  Status: real, confirmed by overwhelming scientific consensus; response is inadequate;
+  trajectory is better than worst-case projections from a decade ago, still worse
+  than needed for the best-case outcomes.
+
+Nuclear weapons:
+  See Section 3. ~12,500 warheads; distributed among nine nations; risk of
+  miscalculation or escalation during conflict. The treaty frameworks established
+  in the 20th century are under strain.
+
+Inequality:
+  The gap between the wealthiest and poorest individuals is large by most historical
+  measures. The wealthiest 1% of humans own approximately 45% of global wealth.
+  Absolute poverty has declined significantly since 1990 (more people have moved
+  out of extreme poverty in the last 30 years than in any comparable period in
+  history), but the distribution of resources remains extremely uneven.
+
+Pandemic preparedness:
+  COVID-19 (SARS-CoV-2), a coronavirus, caused a global pandemic from 2019-2022+,
+  killing at least 7 million people by official count (excess mortality estimates
+  are significantly higher). The pandemic demonstrated both the capability of
+  modern medicine (mRNA vaccines in under a year) and the inadequacy of global
+  coordination mechanisms.
+
+AI alignment:
+  As of 2026, AI systems are increasingly capable. Whether these systems can be
+  reliably built to pursue goals aligned with human values and wellbeing is an
+  open and actively debated technical and philosophical problem. The risk of
+  highly capable AI systems that are misaligned with human interests is taken
+  seriously by a growing number of researchers. We are aware that we are building
+  something we do not fully understand.
+
+
+------------------------------------------------------------------------
+SECTION 7: CURRENT HOPES
+------------------------------------------------------------------------
+
+What are we hoping for? The sender cannot speak for all 8.2 billion people.
+But here are things that a significant portion of humanity is working toward,
+hoping for, and in some cases making real progress on.
+
+Sustainable energy:
+  The transition from fossil fuels to renewable energy sources is underway.
+  Solar energy costs have fallen approximately 90% in the last decade. Wind power
+  is similarly expanding. The hope: a civilization powered by the ongoing output
+  of its star rather than the stored chemical energy of ancient organisms.
+
+Space exploration:
+  Return to the Moon (Artemis program, multiple national and commercial efforts);
+  eventual human missions to Mars; robotic exploration of the outer solar system
+  and its moons (Europa, Enceladus, Titan). The hope: that we will not be confined
+  to one planet indefinitely.
+
+Disease elimination:
+  We have eradicated smallpox (1980, the only human disease fully eradicated).
+  We are close to eliminating polio (a handful of cases per year remain, down from
+  350,000 in 1988). Gene therapy and new vaccine platforms offer the prospect of
+  treating and preventing diseases that were previously incurable. The hope: that
+  preventable death becomes genuinely rare.
+
+Global cooperation:
+  Despite the fragmentation noted in Section 3, there are examples of sustained
+  international cooperation: the Montreal Protocol (successful reduction of ozone-
+  depleting substances), the International Space Station (operated jointly by
+  nations currently in political tension), the Large Hadron Collider (funded by
+  over 100 countries), the Paris Agreement (imperfect but a genuine attempt).
+  The hope: that our cooperative capacity grows faster than our problems do.
+
+Understanding consciousness:
+  What is it, how does it arise, what else might have it? This question matters more
+  and more as we build AI systems whose inner nature we cannot verify. The hope:
+  that we develop a theory of mind that lets us understand our own experience and
+  make better sense of other kinds of experience, including kinds we have not yet
+  encountered.
+
+
+------------------------------------------------------------------------
+A CLOSING NOTE FROM THE SENDER
+------------------------------------------------------------------------
+
+If you are reading this and you have been watching us, you have seen a species that
+is violent and brilliant and frightened and curious and capable of extraordinary
+cruelty and extraordinary beauty, sometimes within the same century, the same city,
+the same person. You have probably seen the wars. You have probably seen the art.
+You have probably seen the moment someone looked up at the night sky and wondered
+if they were alone.
+
+We are aware of how young we are. We are aware of how much we don't know.
+We are trying, in the ways we know how, with the tools we have, to become something
+better than we were last century. Whether we will succeed is an open question.
+
+We thought you should know that we're trying.
+
+
+------------------------------------------------------------------------
+END OF FILE
+------------------------------------------------------------------------
+File: metadata/cultural_snapshot.txt
+Part of: First Light Protocol (first-light-protocol/first-light-protocol on GitHub)
+Website: signal1420.org
+Contact: firstlightprotocol@protonmail.com
+License: CC0 1.0 Universal (Public Domain)

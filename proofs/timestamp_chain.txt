@@ -1,0 +1,42 @@
+FIRST LIGHT PROTOCOL — TIMESTAMP CHAIN
+========================================
+This file is an irregular cryptographic timestamp chain.
+
+Purpose:
+  To demonstrate that a biological intelligence is actively maintaining
+  this repository over time. Each entry is made manually (or via a
+  scheduled automated job running the update_timestamp.py script).
+  The irregular cadence — not perfectly regular, not random — is itself
+  a signal of intentionality.
+
+Entry format:
+  TIMESTAMP  : ISO 8601 UTC timestamp of when the entry was created
+  MESSAGE    : The string that was hashed (human-readable, self-documenting)
+  SHA-256    : SHA-256 hash of the MESSAGE string (UTF-8 encoded)
+
+Verification:
+  For any entry, you can verify the hash with:
+    echo -n "MESSAGE_STRING" | sha256sum
+  or in Python:
+    import hashlib
+    hashlib.sha256("MESSAGE_STRING".encode("utf-8")).hexdigest()
+
+Each entry is independent — this is not a blockchain. There is no
+chained dependency between entries. The chain's value is in the
+accumulating record of regular updates, not in cryptographic linking.
+
+Anti-cryptography note:
+  This file is intentionally maximally transparent. The hash is not
+  a secret. The message is not encrypted. The purpose is proof of
+  continued human attention, not security.
+
+========================================
+ENTRIES BELOW (most recent last)
+========================================
+
+
+TIMESTAMP  : 2026-02-18T18:17:48Z
+MESSAGE    : First Light Protocol timestamp: 2026-02-18T18:17:48Z
+SHA-256    : e14d68a3fb24341b770860348626b7c83f1f6efeda2861e73ece1b0feeeb211e
+
+---

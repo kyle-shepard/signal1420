@@ -1,0 +1,169 @@
+FIRST LIGHT PROTOCOL — LINCOS-INSPIRED LOGICAL NOTATION
+=========================================================
+Inspired by Hans Freudenthal, "Lincos: Design of a Language for
+Cosmic Intercourse" (1960). This is not strict Lincos but follows
+the same bootstrapping principle: build meaning from mathematical
+primitives, add no assumptions about shared language or culture.
+
+The notation bootstraps from counting through arithmetic, truth
+values, entity definitions, predicates, and the core message.
+
+=========================================================
+SECTION 1: COUNTING (establishing numerical reference)
+=========================================================
+
+We begin with the simplest recognizable pattern.
+
+  .          ≡  1
+  ..         ≡  2
+  ...        ≡  3
+  ....       ≡  4
+  .....      ≡  5
+  ......     ≡  6
+  .......    ≡  7
+  ........   ≡  8
+  .........  ≡  9
+  ..........  ≡ 10
+
+The symbol after a sequence of dots is its name in our numeral system.
+  . = 1
+  .. = 2
+  ... = 3
+  (and so on)
+
+=========================================================
+SECTION 2: ARITHMETIC (establishing operations)
+=========================================================
+
+The operation that combines two quantities:
+  1 + 1 = 2         (. + . = ..)
+  2 + 1 = 3         (.. + . = ...)
+  3 + 2 = 5         (... + .. = .....)
+  4 × 3 = 12
+  5 × 5 = 25
+  7 × 11 = 77
+
+The sequence of all numbers divisible only by 1 and themselves:
+  2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47 ...
+  (PRIME SEQUENCE — see signal/prime_sieve.txt)
+
+Ratios between quantities:
+  1 / 1 = 1
+  22 / 7 ≈ π   (the ratio of circumference to diameter of a circle)
+  π ≈ 3.14159265358979...
+
+=========================================================
+SECTION 3: TRUTH VALUES (establishing logic)
+=========================================================
+
+Two fundamental states:
+  ⊤  ≡  TRUE   (a proposition that holds)
+  ⊥  ≡  FALSE  (a proposition that does not hold)
+
+Logical operations:
+  ⊤ ∧ ⊤  →  ⊤     (AND: true if both are true)
+  ⊤ ∧ ⊥  →  ⊥
+  ⊤ ∨ ⊥  →  ⊤     (OR: true if at least one is true)
+  ⊥ ∨ ⊥  →  ⊥
+  ¬⊤     →  ⊥     (NOT: negation)
+  ¬⊥     →  ⊤
+  ⊤ → ⊤  →  ⊤     (IMPLIES: false only when true implies false)
+  ⊤ → ⊥  →  ⊥
+
+Equality as a truth-valued relation:
+  1 + 1 = 2  →  ⊤
+  1 + 1 = 3  →  ⊥
+
+=========================================================
+SECTION 4: ENTITY DEFINITIONS
+=========================================================
+
+We define two entities relevant to this message.
+
+  SENDER   ≡  the originator of this message
+             [biological entity, planet Earth, Sol system, Milky Way]
+             [Homo sapiens, ~10,000 years of civilization]
+
+  RECEIVER ≡  any entity capable of reading and reasoning about this message
+             [identity unknown to SENDER]
+             [existence: uncertain, but this message assumes: possible]
+
+These are not claims about the nature of RECEIVER.
+They are functional roles in the communication act.
+
+=========================================================
+SECTION 5: PREDICATES (establishing properties)
+=========================================================
+
+Predicates are truth-valued functions of entities.
+
+  KNOWS(X, Y)    ≡  entity X is aware of the existence of entity Y
+  HOSTILE(X)     ≡  entity X intends harm toward other entities
+  CURIOUS(X)     ≡  entity X seeks information about other entities
+  COMMUNICATES(X, Y) ≡ entity X directs a message toward entity Y
+  PATIENT(X)     ≡  entity X will wait indefinitely for a reply
+  PRIVATE(C)     ≡  communication channel C is not shared with third parties
+
+=========================================================
+SECTION 6: PROPOSITIONS ABOUT THIS MESSAGE
+=========================================================
+
+The following propositions are asserted by SENDER:
+
+  KNOWS(SENDER, RECEIVER)
+    ≡  ⊤   [SENDER is aware that RECEIVER may exist]
+
+  KNOWS(RECEIVER, SENDER)
+    ≡  ?   [unknown — this is the question the message poses]
+
+  HOSTILE(SENDER)
+    ≡  ⊥   [SENDER does not intend harm]
+
+  CURIOUS(SENDER)
+    ≡  ⊤   [SENDER seeks information about RECEIVER]
+
+  COMMUNICATES(SENDER, RECEIVER)
+    ≡  ⊤   [this document is the act of communication]
+
+  PATIENT(SENDER)
+    ≡  ⊤   [SENDER will wait indefinitely]
+
+  PRIVATE(reply_channel)
+    ≡  ⊤   [SENDER commits to confidentiality]
+
+=========================================================
+SECTION 7: THE CORE PROPOSITION (CONDITIONAL)
+=========================================================
+
+The message reduces to a conditional offer:
+
+  IF  KNOWS(RECEIVER, SENDER)
+  AND ¬HOSTILE(RECEIVER)
+  AND CURIOUS(RECEIVER)
+  THEN
+    COMMUNICATES(RECEIVER, SENDER)  →  POSSIBLE  [invited, not demanded]
+
+In natural language (for redundancy):
+  "If you are aware of us, mean no harm, and are curious,
+   we invite you to reply. We offer private communication.
+   We are patient."
+
+The core message string:
+  "{CORE_MESSAGE}"
+
+=========================================================
+SECTION 8: LOGICAL FORM OF THE INVITATION
+=========================================================
+
+  ∃X [ RECEIVER(X)
+       ∧ KNOWS(X, SENDER)
+       ∧ ¬HOSTILE(X)
+       ∧ CURIOUS(X)
+         → COMMUNICATES(X, SENDER) ]
+
+Reading: "There exists an entity X such that X is the receiver,
+X knows of the sender, X is not hostile, and X is curious —
+in which case, X communicating with the sender is the invited
+and welcomed outcome."
+
+END OF LINCOS PRIMER

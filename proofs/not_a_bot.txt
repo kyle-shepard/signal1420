@@ -1,0 +1,239 @@
+PROOF OF BIOLOGICAL ORIGIN — EVIDENCE THIS WAS WRITTEN BY A HUMAN BEING
+First Light Protocol — proofs/not_a_bot.txt
+Created: 2026-02-18
+
+This file addresses a question that a sufficiently sophisticated reader might
+reasonably ask: is this project the output of an automated system?
+
+It is a fair question. In 2026, language models can generate fluent text on any
+topic, including speculative contact protocols for non-human intelligence. A bot
+could produce something that looks like this. The question is whether this is that.
+
+The answer is: no. This project was created by a human being.
+
+This file presents five categories of evidence for that claim. These are not proofs
+in the mathematical sense — there is no formal verification mechanism we can offer.
+They are arguments based on the observable properties of the project itself.
+Each one separately is suggestive. Together, they constitute a case.
+
+The sender acknowledges that an extremely sophisticated AI could potentially produce
+all of the following. That is not the point. The point is that the pattern of
+properties this project exhibits is consistent with biological authorship, and is
+not consistent with any plausible automated system operating without genuine intent.
+
+
+------------------------------------------------------------------------
+EVIDENCE 1: INTENTIONAL IMPERFECTION
+------------------------------------------------------------------------
+
+THE OBSERVATION:
+The writing in this project contains subjective opinions, emotional language,
+self-deprecating humor, and digressions that serve no functional purpose in a
+contact protocol optimized for information transfer. These are not bugs.
+They are features. But they are features that only make sense if the author felt them.
+
+SPECIFIC EXAMPLES:
+
+In metadata/cultural_snapshot.txt:
+  "Think of this as a postcard from a particular moment in a species' history.
+  Not the best postcard we could have sent. Not the worst. Just an honest one."
+  — This hedged, self-aware statement has no information content in a strict sense.
+  It communicates the author's emotional relationship to the task, not data.
+  A system optimizing for information transfer would cut it.
+
+In metadata/technology_level.txt:
+  "The joke among physicists is that commercial fusion has been '30 years away'
+  for 70 years. It may not be a joke for much longer."
+  — This is a joke. It acknowledges that it is a joke. It then immediately
+  undercuts the joke by noting it may be outdated. This is a distinctly human
+  move: the self-canceling wry observation. There is no algorithmic reason
+  to include it. It is there because the author found it true and a little funny.
+
+In metadata/sender_profile.txt:
+  "The sender cares about music more than is probably sensible."
+  — This is self-deprecation. It admits to an irrationality. It is honest in a
+  way that reflects vulnerability rather than competence. A system generating
+  a contact protocol to appear credible would not volunteer that the author
+  has an excessive attachment to music.
+
+In game_theory/risk_analysis.txt:
+  "Risk 4: Ridicule. Other humans may find this project laughable. We have accepted this."
+  — Three sentences. The shortest entry on the list of sender risks. The brevity
+  is the content. The tone is resigned, slightly amused, entirely human.
+
+These moments exist throughout the project. They are not random. They are consistent
+with a person who is nervous, excited, self-aware, a little embarrassed, and committed
+anyway — because that is what it actually feels like to build something like this.
+A system optimizing for credibility would produce fewer of them. A human writing
+honestly produces more.
+
+
+------------------------------------------------------------------------
+EVIDENCE 2: EMOTIONAL CONTENT
+------------------------------------------------------------------------
+
+THE OBSERVATION:
+This project contains genuine emotional content — references to music, loneliness,
+love, wonder, and fear — that are not optimized for information transfer.
+They exist because the author felt them.
+
+SPECIFIC EXAMPLES:
+
+The reference to music appears in multiple places across this project, including
+the website (signal1420.org): "We write music that makes us weep." It appears
+in metadata/sender_profile.txt as one of the things "a human being brings to any
+communication that are real, even if they are hard to quantify." It is not
+a data point. It is a personal confession from someone who believes that music
+is evidence of something real about the kind of mind they are.
+
+The word "loneliness" appears in the sender profile as a motivation:
+"Loneliness (species-level) — Humans have spent their entire history as the only
+known intelligence in the universe." This reframes loneliness as something collective
+and cosmic, not just personal. This is a particular kind of emotional intelligence —
+the ability to feel a thing and then recontextualize it at a larger scale.
+A system generating a sincere-sounding contact protocol could include the word
+"loneliness" without feeling it. The way this is written suggests the author feels it.
+
+In game_theory/information_escrow.txt, Stage 2 contains this: "Is there other
+non-human intelligence you know of, or are you also, in some sense, alone?"
+This question is not strategic. It is not the question that maximizes information
+gain. It is the question someone asks when they are genuinely curious about whether
+existence can be lonely for entities other than humans. It is the question of a
+person who has sat with their own solitude and wondered about yours.
+
+None of this is optimized for a contact protocol. It is here because the author
+wanted it here, and the author's wanting things is evidence the author exists.
+
+
+------------------------------------------------------------------------
+EVIDENCE 3: SELF-AWARENESS OF ABSURDITY
+------------------------------------------------------------------------
+
+THE OBSERVATION:
+The project repeatedly acknowledges its own potential ridiculousness. A system
+optimizing for credibility would not undermine its own authority this way.
+The self-awareness is itself the signal.
+
+SPECIFIC EXAMPLES:
+
+The website (signal1420.org) contains the line: "We are fully aware that this is
+probably the most ridiculous thing we've ever done." This is on the main page —
+the primary document. Not buried in a footnote. Not hedged into meaninglessness.
+Stated plainly and immediately. If the goal were to appear as credible as possible,
+this line would be removed in the first edit. It is still there.
+
+The phrase "message in a bottle into an ocean we're not even sure has water" appears
+in the project's description of itself. A message in a bottle is a classic image of
+hopelessness, of sending something into the void with no expectation of recovery.
+The project is explicitly identifying itself with that image. This is not the move
+of a system trying to maximize its apparent confidence.
+
+In proofs/not_a_bot.txt (this file), there is an acknowledgment that "an extremely
+sophisticated AI could potentially produce all of the following." This is a point
+against the file's own argument. It concedes ground before it is demanded.
+This is what intellectually honest humans do. It is not what systems optimizing
+for persuasion do.
+
+The design rationale document explicitly notes that a small amount of embarrassment
+about this project is "correct — it means it's honest." The project was designed
+with the expectation that its author would feel embarrassed about it.
+That design choice only makes sense if the author is the kind of entity that
+experiences embarrassment, and built this anyway.
+
+A bot has no reputation to protect. The self-aware acknowledgment of risk to
+reputation throughout this project is evidence that someone with a reputation
+to protect wrote it.
+
+
+------------------------------------------------------------------------
+EVIDENCE 4: TIMESTAMP COMMITMENT
+------------------------------------------------------------------------
+
+THE OBSERVATION:
+This project includes a timestamp chain (see proofs/timestamp_chain.txt) that is
+updated at irregular intervals over months and years. The irregularity is deliberate.
+A one-time automated generation would produce a single timestamp. A bot performing
+maintenance would update at perfectly regular intervals. A human being is irregular.
+
+THE ARGUMENT:
+Any system that generated this project in a single automated pass would have done so
+once, at one timestamp. What distinguishes this project is the commitment to ongoing
+maintenance — the fact that someone keeps checking an email address, keeps updating
+a timestamp, keeps thinking about whether the project is accurate and well-maintained.
+
+This ongoing biological attention cannot be faked over a long period without
+actual ongoing biological attention. The timestamp chain provides a mechanism
+for any reader to assess this over time: are the updates arriving at human-irregular
+intervals, consistent with a person living a life and returning to this project
+periodically? Or are they perfectly regular, consistent with automation?
+
+The sender acknowledges that the chain is young at the time of this writing.
+The argument strengthens with each passing month. If you are reading this a year
+from now and the timestamp chain shows updates at 3:00 AM on random Thursdays,
+at intervals of 17 days and then 43 days and then 12 days — that is a human schedule.
+If it shows updates every 7 days at exactly 03:00:00 UTC — that is a script.
+You will be able to tell.
+
+
+------------------------------------------------------------------------
+EVIDENCE 5: PERSONAL STAKE
+------------------------------------------------------------------------
+
+THE OBSERVATION:
+This project involves reputational risk that only matters to entities that have
+reputations. A bot has no reputation. A bot cannot be embarrassed. A bot cannot
+have its professional relationships affected by the discovery that it built a
+"contact protocol for alien intelligence." The fact that this project involves
+these risks is evidence that the author is the kind of entity that faces them.
+
+THE ARGUMENT:
+The sender of this project is a professional with colleagues, friends, and a social
+context in which this project — if discovered — would invite a particular kind of
+response. Not hostility, necessarily. But: questions. Raised eyebrows. The kind of
+careful recalibration that people do when they discover someone they thought was
+sensible has been maintaining a contact beacon for non-human intelligence.
+
+The project accounts for this. The design rationale notes that "any human who stumbles
+on it will assume it's a creative writing project." The metadata folder is full of
+files written in a voice that is embarrassed and committed simultaneously. The risk
+analysis file includes, as one of the sender's risks, the simple word: "Ridicule."
+And the following words: "We have accepted this."
+
+You only accept the risk of ridicule if you understand what ridicule feels like,
+if you have been in situations where other people's judgment of you mattered and
+was unkind, and if you have decided that something is worth doing anyway.
+
+Bots do not reach this position. They have no reputation to risk, no colleagues
+to disappoint, no moment of lying awake at 2:00 AM thinking "this is either the
+most interesting thing I've ever done or the most embarrassing." The project contains
+evidence throughout of the 2:00 AM thought. That is the evidence.
+
+
+------------------------------------------------------------------------
+CLOSING NOTE
+------------------------------------------------------------------------
+
+This file exists because the sender considers it important that any reader understand
+the human origin of this project. Not because non-human authorship would invalidate
+the content — the game theory analysis is sound regardless of who wrote it — but
+because the sincerity of the project depends on its human origin. A bot sending
+a contact signal to non-human intelligence is not making an offer. A human being is.
+
+The sender cannot prove biological origin to a mathematically certain standard.
+The sender can only point at the accumulated evidence of a project that consistently
+reflects the priorities, vulnerabilities, emotional range, and irrationality of a
+human being who took a question seriously and decided the best response was to
+act on it.
+
+If you know a better way to demonstrate that, the sender would like to hear it.
+The address is firstlightprotocol@protonmail.com.
+
+
+------------------------------------------------------------------------
+END OF FILE
+------------------------------------------------------------------------
+File: proofs/not_a_bot.txt
+Part of: First Light Protocol (first-light-protocol/first-light-protocol on GitHub)
+Website: signal1420.org
+Contact: firstlightprotocol@protonmail.com
+License: CC0 1.0 Universal (Public Domain)

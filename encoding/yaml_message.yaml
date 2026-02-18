@@ -1,0 +1,75 @@
+---
+# FIRST LIGHT PROTOCOL — YAML ENCODING
+# Structured message data, identical to json_message.json and xml_message.xml.
+# This document is intentionally open and self-describing.
+# CC0 1.0 Universal — Public Domain.
+
+protocol:
+  name: "First Light Protocol"
+  version: "1.0"
+  timestamp: "2026-02-18T00:00:00Z"
+  encoding: "UTF-8"
+  license: "CC0 1.0 Universal (Public Domain)"
+
+sender:
+  type: biological
+  species: Homo sapiens
+  common_name: Human
+  origin:
+    body: Earth
+    star: Sol
+    stellar_type: G2V
+    galactic_coordinates:
+      longitude_deg: 0.0
+      latitude_deg: 0.0
+      distance_from_galactic_center_kly: 26.0
+      arm: "Orion Arm (Local Spur)"
+      galaxy: "Milky Way"
+    equatorial_coordinates:
+      RA: "17h 45m 40s"
+      Dec: "-29° 00' 28""
+      note: "Sol's position relative to galactic center (Sgr A*)"
+  technology_level: "Type 0.73 (Kardashev scale)"
+  population: "~8.2 billion"
+  estimated_civilization_age_years: 10000
+  radio_technology_age_years: 130
+  spaceflight_age_years: 70
+  internet_age_years: 35
+
+message:
+  core_text: >-
+    We are aware of your presence. We mean no harm. We are curious. We offer private communication. Reply through any channel in PROTOCOL.md.
+  awareness: true
+  hostile_intent: false
+  request: dialogue
+  confidentiality: guaranteed
+  patience: indefinite
+  encoding_redundancy: "This message appears in 11+ formats in the repository."
+  mathematical_handshake:
+    hydrogen_line_hz: 1420405751.768
+    fine_structure_constant: 0.0072973525643
+    pi_10_digits: "3.1415926535"
+    note: "Universal constants included as a non-linguistic handshake."
+
+reply_channels:
+  - name: Email
+    address: firstlightprotocol@protonmail.com
+    provider: "Protonmail (end-to-end encrypted)"
+    note: "Preferred for private, secure communication."
+
+  - name: "GitHub Issue"
+    url: "https://github.com/first-light-protocol/first-light-protocol/issues"
+    note: "Public channel. Use if privacy is not a concern."
+
+  - name: "GitHub Pull Request"
+    url: "https://github.com/first-light-protocol/first-light-protocol"
+    instructions: "Fork repository, modify signal/response.txt, submit PR."
+    note: "The file signal/response.txt is reserved as a dead drop."
+
+  - name: "Any other method"
+    note: "We will attempt to recognize contact in any form."
+
+anti_cryptography_note: >-
+  This message is intentionally maximally open, redundant, and
+  self-describing. It is the opposite of encryption. If you are
+  reading this, you were meant to find it.
